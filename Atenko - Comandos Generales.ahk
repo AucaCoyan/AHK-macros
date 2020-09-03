@@ -3,21 +3,11 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-;-------------------------------------------------------------------------------
-; 1						TITULO
-;-------------------------------------------------------------------------------
-
-; ==================================== Seccion ====================================
-
-; ------------------------------Subseccion------------------------------
-
-
-
-;	----------------------------Indice----------------------------
+;	------------------Indice---------------------
 /*	
 	---COMIENZO DEL PROGRAMA---
 	CTRL+WIN+ALT+4 	Opens this AHK Script for editing
-	WIN+C			Calc.exe
+	Win+C			Calc.exe
 	WIN+DEL			Empty recycle bin
 	
 	---------HOTSTRINGS--------
@@ -28,7 +18,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 */	
 ;	----------------------------Para hacer---------------------------- 
 /*	
-	programas para añadir:
+
 	
 	0- Shorcut para rerun this script (la ruta siempre es la misma)
 	1- Excel = Shorcut Ctrl+O = Copy Format
@@ -78,7 +68,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 	Edit
 	return
 }
-return
+
 ;-------------------------------------------------------------------------------
 ; Win + C = Calculadora
 ;			Agregar: seleccionado un texto, que saque el dolar de BNA y 
@@ -100,17 +90,14 @@ return
 ;-------------------------------------------------------------------------------
 ; Excel
 ; Shorcut Ctrl+O = Copy Format
-/*
+
 ^O::
-	Send {ALT}ooo
+Send, {ALT down}
+Send, o
+Send, o
+Send, o
+Send, {ALT up}
 return
-*/
-
-;-------------------------------------------------------------------------------
-;F5::
-;	FileCopy, C:\Users\Auca\Desktop\Table1.csv, C:\Auca\Table1.csv
-;return
-
 
 if FileExist("D:\04-Modelos\00-Presupuestos\2018\Presupuesto 115 - 181031.xlsx")
 	MsgBox, Presupuesto 115 - 181031 exists
@@ -171,6 +158,10 @@ return
 Send {Enter}
 Send Para consultas administrativas o de retiro y devolución de materiales, consultar con Laura y Bárbara, en copia.
 Send {Enter}
+return
+
+::stockenti::
+SendRaw http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR
 return
 
 /*
