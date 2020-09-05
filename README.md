@@ -21,19 +21,19 @@ The tiny prrograms and scripts that don't deserve a project
 
 | Hotstring             | Do                             | Comments              |
 | -------------         |:------------------------------:| ---------------------:|
-| mercadolibretexto     | Mercadolibre                   |    Texto de permutas y eso |
-| aoe2m                 | Manda el soundtrack de Age 2 en discord      |   -p [Link de youtube](https://www.youtube.com/watch?v=jadxTFqyhRM&t=) |
-| emailppto             | cuerpo del email de atk        |    Le adjunto el presupuesto según lo pedido. |
-| seguimientoppto       | cuerpo del emailde seguimiento |    ¿Pudo ver el presupuesto? ¿Tiene dudas al respecto? |
-| condicionesestandar   | las dos condiciones más normales, en la hoja del excel      |    Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF. **Enter** **Enter** 4 días hábiles a partir de la acreditación del pago y presentación de requisitos. |
-| Contado anticipado    |  Solo la forma de pago         |  Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF. |
-| 4dh                   | Solo el plazo de entrega 4 dias|  4 días hábiles a partir de la acreditación del pago y presentación de requisitos. |
-| 72h                   | Solo el plazo de entrega 72hs  |  48/72hs a partir de la cumplimentación de los requerimientos administrativos.		 |
-| cple                  |  las dos condiciones más normales, en la hoja datos     |  Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF. **Enter** 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.   |
-| sdisp                 | Según disponibilidad.          |    Según disponibilidad. |
-| conadmin              | texto para poner en emails de contratos      |    Para consultas administrativas o de retiro y devolución de materiales, consultar con Laura y Bárbara, en copia. |
-| stockenti | Página de stock de atenko para entibado      |   [Link de la db de entibados atenko](http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR) |
-| Empty cell            | Empty cell                     |  Empty cell |
+| `mercadolibretexto`     | Mercadolibre                   |    Texto de permutas y eso |
+| `aoe2m`                 | Manda el soundtrack de Age 2 en discord      |   -p [Link de youtube](https://www.youtube.com/watch?v=jadxTFqyhRM&t=) |
+| `emailppto`             | cuerpo del email de atk        |    Le adjunto el presupuesto según lo pedido. |
+| `seguimientoppto`       | cuerpo del emailde seguimiento |    ¿Pudo ver el presupuesto? ¿Tiene dudas al respecto? |
+| `condicionesestandar`   | las dos condiciones más normales, en la hoja del excel      |    Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF. **Enter** **Enter** 4 días hábiles a partir de la acreditación del pago y presentación de requisitos. |
+| `Contado anticipado`    |  Solo la forma de pago         |  Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF. |
+| `4dh`                   | Solo el plazo de entrega 4 dias|  4 días hábiles a partir de la acreditación del pago y presentación de requisitos. |
+| `72h`                   | Solo el plazo de entrega 72hs  |  48/72hs a partir de la cumplimentación de los requerimientos administrativos.		 |
+| `cple`                  |  las dos condiciones más normales, en la hoja datos     |  Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF. **Enter** 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.   |
+| `sdisp`                 | Según disponibilidad.          |    Según disponibilidad. |
+| `conadmin`              | texto para poner en emails de contratos      |    Para consultas administrativas o de retiro y devolución de materiales, consultar con Laura y Bárbara, en copia. |
+| `stockenti` | Página de stock de atenko para entibado      |   [Link de la db de entibados atenko](http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=`A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR) |
+| `Empty cell`            | Empty cell                     |  Empty cell |
 
 
 [Pagina del sistema monocodal:](https://www.atenko.com/Entibados/Sistemas-de-entibado/Monocodal-de-Patines/alquiler-venta.html?idp=23)
