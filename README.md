@@ -3,8 +3,7 @@ The tiny prrograms and scripts that don't deserve a project
 
 # Comandos generales de AutoHotkey
 
-	
-				
+
 ## Hotkeys
 
 | Hotkey            | Do            | Comments  |
@@ -39,14 +38,13 @@ The tiny prrograms and scripts that don't deserve a project
 [Pagina del sistema monocodal:](https://www.atenko.com/Entibados/Sistemas-de-entibado/Monocodal-de-Patines/alquiler-venta.html?idp=23)
 
 [Video de instalacion del monocodal:](https://www.youtube.com/watch?v=NKDc9yul4Yc)
-	
 
 [Pagina del sistema standarbox / lightbox (varian en la presion admisible y dimensiones):](https://www.atenko.com/Entibados/Sistemas-de-entibado/Cajon-Robust-BOX/alquiler-venta.html?idp=22)
 
 [Video de instalacion del standarbox / lightbox:](https://www.youtube.com/watch?v=ZiIZpLWYPSc&t=1s)
-	
+
 ### CERCOS:
-	
+
 CONDICIÓN DE PAGO:
 
 Contado anticipado
@@ -75,9 +73,11 @@ Gracias por comunicarse con nosotros. Para cotizar correctamente necesito los si
 
 * Un croquis o plano de estructuras con las dimensiones del tabique, un corte para ver las alturas
 
-	
-# Para hacer
 
+
+# Requested features
+
+* `emailppto`, `seguimientoppto` y `conadmin` podria fijarse que hora es y poner "buen dia" o "buenas tardes"
 * Count Files
 * Shorcut para seleccionar pdfs y unirlos en Adobe Acrobat
 * Shorcut para [seleccionar tracks] añadir a lista de reproducción de VLC
@@ -100,5 +100,9 @@ Autohotkey control temperature
 * F's Archivos obras, presupuesto 110, etc
 * Hacer que cuando abris un pdf no te abra los marcadores y la barra esa chota
 * Ver que onda Usar geometrical constraints + grupo + array para encofrados
-* Seleccionar un numero y dividirlo por el dolar planilla
+* Seleccionar un numero y dividirlo por el dolar planilla / dolar BNA
 * Machine learning para el codigo de AFIP
+
+## Bugfix
+
+* `Mouse Wheel and volume.ahk` no está andando bien, cuando está ejecutado no funciona la tecla `{[^`

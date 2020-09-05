@@ -17,8 +17,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;-------------------------------------------------------------------------------
 ; Win + C = Calculadora
-;			Agregar: seleccionado un texto, que saque el dolar de BNA y 
-;					haga la cuenta.
 #c::
 IfWinExist, Calculadora
 	WinActivate, Calculadora
@@ -47,7 +45,6 @@ return
 ;-------------------------------------------------------------------------------
 ; Excel
 ; Shorcut Ctrl+O = Copy Format
-
 ^O::
 Send, {ALT down}
 Send, o
@@ -67,22 +64,22 @@ return
 ::aoe2m::
 Send, -p https://www.youtube.com/watch?v=jadxTFqyhRM&t=
 return
-; ------------------------------OTROS------------------------------
+; -----------------------------------------------------------------
 
-::mercadolibretexto::NO hago permutas.{Enter}Hago envíos por Mercadoenvíos o a elección del comprador. A cargo del compradsh�i�
+::mercadolibretexto::
+Send NO hago permutas.{Enter}
+Send Hago envíos por Mercadoenvíos o a elección del comprador.
 
 
-; -----------------------------ATENKO------------------------------
+; -----------------------------------------------------------------
 
 ::emailppto::
-; TO DO: podria fijarse que hora es y poner "buen dia" o "buenas tardes"
 Send {Enter}
 Send Le adjunto el presupuesto según lo pedido.
 Send {Enter}
 return
 
 ::seguimientoppto::
-; TO DO: podria fijarse que hora es y poner "buen dia" o "buenas tardes"
 Send {Enter}
 Send ¿Pudo ver el presupuesto? ¿Tiene dudas al respecto?
 Send {Enter}
@@ -121,7 +118,6 @@ Send Según disponibilidad.
 return
 
 ::conadmin::
-; TO DO: podria fijarse que hora es y poner "buen dia" o "buenas tardes"
 Send {Enter}
 Send Para consultas administrativas o de retiro y devolución de materiales, consultar con Laura y Bárbara, en copia.
 Send {Enter}
