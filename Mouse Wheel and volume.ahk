@@ -1,8 +1,8 @@
 #Persistent ; keep running
 
-#InstallKeybdHook ; Better for keys
+#InstallKeybdHook 	; Better for keys
 
-KeyHistory
+; KeyHistory 		; Key Inspector
 
 ; agregar CapsLock ctrl shit mueve de a 50 o 100 pixeles
 
