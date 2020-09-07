@@ -75,7 +75,7 @@ Gracias por comunicarse con nosotros. Para cotizar correctamente necesito los si
 
 
 
-# Requested features
+# TO-DO
 
 * `emailppto`, `seguimientoppto` y `conadmin` podria fijarse que hora es y poner "buen dia" o "buenas tardes"
 * Count Files
@@ -103,6 +103,7 @@ Autohotkey control temperature
 * Seleccionar un numero y dividirlo por el dolar planilla / dolar BNA
 * Machine learning para el codigo de AFIP
 
-## Bugfix
+## FIX-ME
 
 * `Mouse Wheel and volume.ahk` no está andando bien, cuando está ejecutado no funciona la tecla `{[^`
+* Dolar BNA no está imprimiendo el código de la página en dataBNA.py

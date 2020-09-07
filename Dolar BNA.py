@@ -1,9 +1,12 @@
-import urllib
+import urllib.request
 
-page = urlopen("http://www.bna.com.ar/Personas");
+page = urllib.request.urlopen("http://www.bna.com.ar/Personas");
+contents = str(page.read())
 
-contents = page.read()
-
-page.close()
+with open('dataBNA.txt', 'w') as data_file:
+    data_file.write(contents)
 
 print(contents)
+page.close()
+
+# print(contents)
