@@ -42,28 +42,6 @@ return
 	MsgBox, % count
 */
 
-;-------------------------------------------------------------------------------
-; Excel
-; Shorcut Ctrl+O = Copy Format
-
-#IfWinActive ahk_exe EXCEL.EXE
-^O::				; excel in english
-Send, {ALT down}
-Send, h
-Send, f
-Send, p
-Send, {ALT up}
-
-
-/* ^O::				; excel en español
-Send, {ALT down}
-Send, o
-Send, o
-Send, o
-Send, {ALT up}
-return
-*/
-
 /*
 ;-------------------------------------------------------------------------------
 ; F7
@@ -117,7 +95,7 @@ return
 ::mercadolibretexto::
 Send NO hago permutas.{Enter}
 Send Hago envíos por Mercadoenvíos o a elección del comprador.
-
+return
 
 ; -----------------------------------------------------------------
 
@@ -175,3 +153,32 @@ return
 SendRaw http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR
 return
 
+::atkenc::
+SendRaw D:\Google Drive Atenko\1-Encofrados\2020\
+return
+
+::atkent::
+SendRaw D:\Google Drive Atenko\2-Entibados\2020\
+return
+
+;-------------------------------------------------------------------------------
+; Excel
+; Shorcut Ctrl+O = Copy Format
+
+#IfWinActive ahk_exe EXCEL.EXE 
+	^O::				; excel in english
+	; Send, {ALT down}
+	Send, !h
+	Send, f
+	Send, p
+	; Send, {ALT up}
+return
+
+/* ^O::				; excel en español
+Send, {ALT down}
+Send, o
+Send, o
+Send, o
+Send, {ALT up}
+return
+*/

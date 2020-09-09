@@ -15,11 +15,11 @@ The tiny prrograms and scripts that don't deserve a project
 | Ctrl+O            | Copy format in Excel      |   Alt+O+O+O |
 | Nothing           | Busca si existe el archivo Presupuesto 115 - 181031.xlsx (en el servidor de ATK, en caso positivo manda un msg box)    | Currently not working   |
 
-
+---
 ## Hotstrings
 
-| Hotstring             | Do                             | Comments              |
-| -------------         |:------------------------------:| ---------------------:|
+| Hotstring               | Do                             | Comments              |
+| ----------------------  |:------------------------------:| ---------------------:|
 | `mercadolibretexto`     | Mercadolibre                   |    Texto de permutas y eso |
 | `aoe2m`                 | Manda el soundtrack de Age 2 en discord      |   -p [Link de youtube](https://www.youtube.com/watch?v=jadxTFqyhRM&t=) |
 | `emailppto`             | cuerpo del email de atk        |    Le adjunto el presupuesto según lo pedido. |
@@ -31,9 +31,11 @@ The tiny prrograms and scripts that don't deserve a project
 | `cple`                  |  las dos condiciones más normales, en la hoja datos     |  Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF. **Enter** 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.   |
 | `sdisp`                 | Según disponibilidad.          |    Según disponibilidad. |
 | `conadmin`              | texto para poner en emails de contratos      |    Para consultas administrativas o de retiro y devolución de materiales, consultar con Laura y Bárbara, en copia. |
-| `stockenti` | Página de stock de atenko para entibado      |   [Link de la db de entibados atenko](http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=`A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR) |
+| `stockenti`             | Página de stock de atenko para entibado      |   [Link de la db de entibados atenko](http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=`A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR) |
+| `atkenc`                | Ruta a Encofrados              |  D:\Google Drive Atenko\1-Encofrados\2020\ |
+| `atkent`                | Ruta a Entibados               |  D:\Google Drive Atenko\2-Entibados\2020\  |
 | `Empty cell`            | Empty cell                     |  Empty cell |
-
+---
 # Otra info
 
 [Pagina del sistema monocodal:](https://www.atenko.com/Entibados/Sistemas-de-entibado/Monocodal-de-Patines/alquiler-venta.html?idp=23)
@@ -44,20 +46,20 @@ The tiny prrograms and scripts that don't deserve a project
 
 [Video de instalacion del standarbox / lightbox:](https://www.youtube.com/watch?v=ZiIZpLWYPSc&t=1s)
 
-### CERCOS:
+## CERCOS:
 
 CONDICIÓN DE PAGO:
 
 Contado anticipado
-* 50% anticipado saldo contra entrega.
+> 50% anticipado saldo contra entrega.
 
 PLAZO DE ENTREGA: 
 
-* N días hábiles a partir de recibida la orden de compra y acreditación del pago.
+> N días hábiles a partir de recibida la orden de compra y acreditación del pago.
 	
 ### Nota precios en dólares: (para cuando se va todo a la re mierda)
 
-* 1.2. Los Precios están expresados en dólares Estadounidenses y serán facturados en pesos según la cotización dólar billete tipo vendedor del Banco de la Nación Argentina anterior a la fecha de facturación.
+> 1.2. Los Precios están expresados en dólares Estadounidenses y serán facturados en pesos según la cotización dólar billete tipo vendedor del Banco de la Nación Argentina anterior a la fecha de facturación.
 	
 
 # email pedir datos ppto
@@ -75,9 +77,9 @@ Gracias por comunicarse con nosotros. Para cotizar correctamente necesito los ds
 * Un croquis o plano de estructuras con las dimensiones del tabique, un corte para ver las alturas
 
 ### Notita precios se van a ajustar por CAC
-* Los precios de alquiler están expresados en pesos argentinos y corresponden a los valores iniciales del contrato original, los mismos serán reajustados según NOTA 1.2 del contrato desde el inicio del mismo.
-		
+> Los precios de alquiler están expresados en pesos argentinos y corresponden a los valores iniciales del contrato original, los mismos serán reajustados según NOTA 1.2 del contrato desde el inicio del mismo.
 
+---
 # TO-DO
 
 * `emailppto`, `seguimientoppto` y `conadmin` podria fijarse que hora es y poner "buen dia" o "buenas tardes"
@@ -109,9 +111,13 @@ Autohotkey control temperature
 * hotstring `manuals600` que pegue la ruta del manual de standarbox S600, así con los otros 2 manuales. (en teoría debería adjuntar el archivo correcto al email). Idem DOKA
 * Ahk/pyscript para crear carpetas Obra nueva encofrados / entibados
 * jumpy for windows, jumpy for everything
+* Python Commmand prompt, que pueda ir a directorios y cree carpetas, como atk --enc obranueva "techint" y que me copie en variables el nombre del contrato, etc.
+* Tecla para poner el sistema en no-notifications / alarms-only / available (y discord estaría bueno también)
+* `gdenc` hotstring para pegar 'D:\Google Drive Atenko\1-Encofrados\2020\'
 
+---
 ## FIX-ME
 
-* `Mouse Wheel and volume.ahk` no está andando bien, cuando está ejecutado no funciona la tecla `{[^`
 * Dolar BNA no está imprimiendo el código de la página en dataBNA.py
 * Pegué el código de cuitonline.com, hacerlo andar con la página de AFIP
+* Si querés hacer zoom en el excel apretas Ctrl+Volumen up en el teclado y... subís el volumen, no aumentás el zoom
