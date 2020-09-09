@@ -34,6 +34,7 @@ The tiny prrograms and scripts that don't deserve a project
 | `stockenti` | Página de stock de atenko para entibado      |   [Link de la db de entibados atenko](http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=`A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR) |
 | `Empty cell`            | Empty cell                     |  Empty cell |
 
+# Otra info
 
 [Pagina del sistema monocodal:](https://www.atenko.com/Entibados/Sistemas-de-entibado/Monocodal-de-Patines/alquiler-venta.html?idp=23)
 
@@ -48,22 +49,22 @@ The tiny prrograms and scripts that don't deserve a project
 CONDICIÓN DE PAGO:
 
 Contado anticipado
-50% anticipado saldo contra entrega.
+* 50% anticipado saldo contra entrega.
 
 PLAZO DE ENTREGA: 
 
-N días hábiles a partir de recibida la orden de compra y acreditación del pago.
+* N días hábiles a partir de recibida la orden de compra y acreditación del pago.
 	
 ### Nota precios en dólares: (para cuando se va todo a la re mierda)
 
-1.2. Los Precios están expresados en dólares Estadounidenses y serán facturados en pesos según la cotización dólar billete tipo vendedor del Banco de la Nación Argentina anterior a la fecha de facturación.
+* 1.2. Los Precios están expresados en dólares Estadounidenses y serán facturados en pesos según la cotización dólar billete tipo vendedor del Banco de la Nación Argentina anterior a la fecha de facturación.
 	
 
-email pedir datos ppto
+# email pedir datos ppto
 
 At. Diego, buen día
 
-Gracias por comunicarse con nosotros. Para cotizar correctamente necesito los siguientes datos:
+Gracias por comunicarse con nosotros. Para cotizar correctamente necesito los dsiguientes datos:
 
 * CUIT o Razón social a nombre de quien emitir el presupuesto (personal o empresa)
 
@@ -73,7 +74,9 @@ Gracias por comunicarse con nosotros. Para cotizar correctamente necesito los si
 
 * Un croquis o plano de estructuras con las dimensiones del tabique, un corte para ver las alturas
 
-
+### Notita precios se van a ajustar por CAC
+* Los precios de alquiler están expresados en pesos argentinos y corresponden a los valores iniciales del contrato original, los mismos serán reajustados según NOTA 1.2 del contrato desde el inicio del mismo.
+		
 
 # TO-DO
 
@@ -102,8 +105,13 @@ Autohotkey control temperature
 * Ver que onda Usar geometrical constraints + grupo + array para encofrados
 * Seleccionar un numero y dividirlo por el dolar planilla / dolar BNA
 * Machine learning para el codigo de AFIP
+* Copy as Path with Win+C
+* hotstring `manuals600` que pegue la ruta del manual de standarbox S600, así con los otros 2 manuales. (en teoría debería adjuntar el archivo correcto al email). Idem DOKA
+* Ahk/pyscript para crear carpetas Obra nueva encofrados / entibados
+* jumpy for windows, jumpy for everything
 
 ## FIX-ME
 
 * `Mouse Wheel and volume.ahk` no está andando bien, cuando está ejecutado no funciona la tecla `{[^`
 * Dolar BNA no está imprimiendo el código de la página en dataBNA.py
+* Pegué el código de cuitonline.com, hacerlo andar con la página de AFIP

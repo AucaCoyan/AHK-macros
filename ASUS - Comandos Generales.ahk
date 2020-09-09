@@ -45,13 +45,61 @@ return
 ;-------------------------------------------------------------------------------
 ; Excel
 ; Shorcut Ctrl+O = Copy Format
-^O::
+
+#IfWinActive ahk_exe EXCEL.EXE
+^O::				; excel in english
+Send, {ALT down}
+Send, h
+Send, f
+Send, p
+Send, {ALT up}
+
+
+/* ^O::				; excel en español
 Send, {ALT down}
 Send, o
 Send, o
 Send, o
 Send, {ALT up}
 return
+*/
+
+/*
+;-------------------------------------------------------------------------------
+; F7
+; Copy already selected text and google up in cuitonline.com
+
+F7::
+	; TO DO Saves old clipboard and clean clipboard
+	; clipsaved:= ClipboardAll    ; This line is here so the original clipboard contents can be restored when the script is finished
+	; ...
+	; Clipboard = clipsaved 		; restore clipboard
+
+Clipboard =    ; This erases the clipboard, so that we can be sure something new is added in the next step.
+
+; Copy the text
+Send, ^c    ; Add the highlighted text to the clipboard
+Sleep 150    ; Give Windows time to actually populate the clipboard - you may need to experiment with the time here.
+
+; Open Chrome and open a new tab
+if WinExist("ahk_exe Chrome.exe")
+{
+	WinActivate, ahk_exe Chrome.exe
+} else {
+	Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+}
+Send, {CtrlDown}t{CtrlUp}
+
+; go to Adress bar and lookup cuitonline
+; Send, {AltDown}d{AltUp}
+Send, c{Tab}
+Send, ^v
+Send, {Enter}
+
+
+	; TO DO Ctrl F que busque "constancia de inscripcion" y le de click.
+	; TO DO que busque en nosis la cuit
+*/
 
 if FileExist("D:\04-Modelos\00-Presupuestos\2018\Presupuesto 115 - 181031.xlsx")
 	MsgBox, Presupuesto 115 - 181031 exists
