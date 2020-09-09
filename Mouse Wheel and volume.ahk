@@ -1,5 +1,9 @@
-#Persistent ; keep running
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+#Persistent ; keep running
 #InstallKeybdHook 	; Better for keys
 
 ; KeyHistory 		; Key Inspector
@@ -44,17 +48,19 @@ return                                                               ;|
 ;---------------------------------------------------------------------o
 
 Volume_Up::
-Send, {WheelUp}
-return
-
-^ & Volume_Up::
-Send, {Volume_Up}
+	Send, {WheelUp}
 return
 
 Volume_Down::
-Send, {WheelDown}
+	Send, {WheelDown}
 return
 
-^ & Volume_Down::
-Send, {Volume_Down}
+/* esto es lo que no anda, de momento no funciona. Sigue
+^&{Volume_Down}::
+	Send, {Volume_Down}
 return
+
+^ & Volume_Up::
+	Send, {Volume_Up}
+return
+*/
