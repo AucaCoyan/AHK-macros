@@ -25,6 +25,16 @@ else
 return
 
 ;-------------------------------------------------------------------------------
+; Win + Ñ = PowerShell
+
+#ñ::
+IfWinExist, ahk_exe PowerShell.exe
+	WinActivate, ahk_exe PowerShell.exe
+else
+	run C:\Users\aucac\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk
+return
+
+;-------------------------------------------------------------------------------
 ; WIN+DEL
 ; Empty trash
 #Del::
@@ -60,28 +70,36 @@ Send, ^c    ; Add the highlighted text to the clipboard
 Sleep 150    ; Give Windows time to actually populate the clipboard - you may need to experiment with the time here.
 
 ; Open Chrome and open a new tab
-if WinExist("ahk_exe Chrome.exe")
+if WinExist("ahk_exe firefox.exe")
 {
-	WinActivate, ahk_exe Chrome.exe
+	WinActivate, ahk_exe firefox.exe
 } else {
-	Run "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+	Run "C:\Users\aucac\AppData\Local\Firefox Nightly\firefox.exe"
 }
 Send, {CtrlDown}t{CtrlUp}
 
-; go to Adress bar and lookup cuitonline
-; Send, {AltDown}d{AltUp}
-Send, c{Tab}
-Send, ^v
-Send, {Enter}
+; TODO: go to site and paste CUIT
 
+; go to Adress bar and lookup cuitonline
+Send, https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do
+Send, {Enter}
+Sleep 150    ; Give Windows time to actually populate the clipboard - you may need to experiment with the time here.
+Send, ^v
+Send, {Tab}
+*/
 
 	; TO DO Ctrl F que busque "constancia de inscripcion" y le de click.
 	; TO DO que busque en nosis la cuit
+
+/*
+::checkfile::
+if FileExist("D:\Google Drive Atenko\1-Encofrados\2020\Techint\Central Termica Barragan\Planos\CTB-101-INGE-C-EN-1401-1-H3.dwg")
+	Send, asd
+	; MsgBox, Presupuesto 115 - 181031 exists
+return
+
 */
 
-if FileExist("D:\04-Modelos\00-Presupuestos\2018\Presupuesto 115 - 181031.xlsx")
-	MsgBox, Presupuesto 115 - 181031 exists
-return
 
 ;-------------------------------------------------------------------------------
 ; 						HOTSTRINGS

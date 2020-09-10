@@ -1,5 +1,6 @@
+/* cSpell:disable */
 # TinyCode
-The tiny prrograms and scripts that don't deserve a project
+The tiny programs and scripts that don't deserve a project
 
 # Comandos generales de AutoHotkey
 
@@ -10,6 +11,7 @@ The tiny prrograms and scripts that don't deserve a project
 | ----------------- |:-------------:| ---------:|
 | Ctrl+Win+Alt+4    | Opens this AHK Script for editing |  |
 | Win + C           | Calc.exe      |   Abre Calc.exe o cambia la tarea. |
+| Win + Ñ           | Opens Powershell     |  Abre Powershell o cambia la tarea |
 | Win+Del           | Empty recycle bin      |     |
 | Nothing           | Count Files      | Currently not working |
 | Ctrl+O            | Copy format in Excel      |   Alt+O+O+O |
@@ -31,7 +33,7 @@ The tiny prrograms and scripts that don't deserve a project
 | `cple`                  |  las dos condiciones más normales, en la hoja datos     |  Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF. **Enter** 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.   |
 | `sdisp`                 | Según disponibilidad.          |    Según disponibilidad. |
 | `conadmin`              | texto para poner en emails de contratos      |    Para consultas administrativas o de retiro y devolución de materiales, consultar con Laura y Bárbara, en copia. |
-| `stockenti`             | Página de stock de atenko para entibado      |   [Link de la db de entibados atenko](http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=`A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR) |
+| `stockenti`             | Página de stock de atenko para entibado      |   [Link de la db de entibados atenko](http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=`A_Articulos&psearch=box+codal+pasador+perno+tclip&psearchtype=OR) |
 | `atkenc`                | Ruta a Encofrados              |  D:\Google Drive Atenko\1-Encofrados\2020\ |
 | `atkent`                | Ruta a Entibados               |  D:\Google Drive Atenko\2-Entibados\2020\  |
 | `Empty cell`            | Empty cell                     |  Empty cell |
@@ -113,7 +115,10 @@ Autohotkey control temperature
 * jumpy for windows, jumpy for everything
 * Python Commmand prompt, que pueda ir a directorios y cree carpetas, como atk --enc obranueva "techint" y que me copie en variables el nombre del contrato, etc.
 * Tecla para poner el sistema en no-notifications / alarms-only / available (y discord estaría bueno también)
-* `gdenc` hotstring para pegar 'D:\Google Drive Atenko\1-Encofrados\2020\'
+* Capslock + jklñ + wb for words fowards and backwards
+* Buscar en clientes [link](http://atk.dnsdojo.net:2080/VS_ClientesTangolist.php?cmd=search&t=VS_ClientesTango&z_contratos=%3E%3D&x_contratos=&z_SALDO_CC=%3E%3D&x_SALDO_CC=&psearch=28525117&psearchtype=)
+* (half fix-me) Estaría bueno que no tenga que mantener apretado la tecla capslock para hacer los comandos, sino que tenga dos modos.
+* CapsLock + shift + AvPag no anda, lo mismo con todos los shifts 
 
 ---
 ## FIX-ME
