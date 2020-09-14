@@ -191,6 +191,10 @@ return
 SendRaw D:\Google Drive Atenko\2-Entibados\2020\
 return
 
+::exwork::
+SendRaw 2. Condición de entrega: EXWORK - Heinsberg, Alemania.
+return
+
 ;-------------------------------------------------------------------------------
 ; Excel
 ; Shorcut Ctrl+O = Copy Format

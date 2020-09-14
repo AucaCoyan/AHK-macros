@@ -37,6 +37,7 @@ The tiny programs and scripts that don't deserve a project
 | `stockenti`             | Página de stock de atenko para entibado      |   [Link de la db de entibados atenko](http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=`A_Articulos&psearch=box+codal+pasador+perno+tclip&psearchtype=OR) |
 | `atkenc`                | Ruta a Encofrados              |  D:\Google Drive Atenko\1-Encofrados\2020\ |
 | `atkent`                | Ruta a Entibados               |  D:\Google Drive Atenko\2-Entibados\2020\  |
+| `exwork`                | Copypasta Ex-Works             |  2. Condición de entrega: EXWORK - Heinsberg, Alemania. |
 | `Empty cell`            | Empty cell                     |  Empty cell |
 ---
 # Otra info
@@ -64,20 +65,6 @@ PLAZO DE ENTREGA:
 
 > 1.2. Los Precios están expresados en dólares Estadounidenses y serán facturados en pesos según la cotización dólar billete tipo vendedor del Banco de la Nación Argentina anterior a la fecha de facturación.
 	
-
-# email pedir datos ppto
-
-At. Diego, buen día
-
-Gracias por comunicarse con nosotros. Para cotizar correctamente necesito los dsiguientes datos:
-
-* CUIT o Razón social a nombre de quien emitir el presupuesto (personal o empresa)
-
-* Teléfono de contacto
-
-* Dirección adonde se dirige el material
-
-* Un croquis o plano de estructuras con las dimensiones del tabique, un corte para ver las alturas
 
 ### Notita precios se van a ajustar por CAC
 > Los precios de alquiler están expresados en pesos argentinos y corresponden a los valores iniciales del contrato original, los mismos serán reajustados según NOTA 1.2 del contrato desde el inicio del mismo.
