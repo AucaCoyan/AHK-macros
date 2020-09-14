@@ -11,6 +11,7 @@ The tiny programs and scripts that don't deserve a project
 | ----------------- |:-------------:| ---------:|
 | Ctrl+Win+Alt+4    | Opens this AHK Script for editing |  |
 | Win + C           | Calc.exe      |   Abre Calc.exe o cambia la tarea. |
+| Win + N           | OneNote       |   Abre OneNote o cambia la tarea.  |
 | Win + Ñ           | Opens Powershell     |  Abre Powershell o cambia la tarea |
 | Win+Del           | Empty recycle bin      |     |
 | Nothing           | Count Files      | Currently not working |
@@ -111,18 +112,18 @@ Autohotkey control temperature
 * Machine learning para el codigo de AFIP
 * Copy as Path with Win+C
 * hotstring `manuals600` que pegue la ruta del manual de standarbox S600, así con los otros 2 manuales. (en teoría debería adjuntar el archivo correcto al email). Idem DOKA
-* Ahk/pyscript para crear carpetas Obra nueva encofrados / entibados
+* Ahk/pyscript para crear carpetas Obra nueva encofrados / entibados, o sino Python Commmand prompt, que pueda ir a directorios y cree carpetas, como atk --enc obranueva "techint" y que me copie en variables el nombre del contrato, etc.
 * jumpy for windows, jumpy for everything
-* Python Commmand prompt, que pueda ir a directorios y cree carpetas, como atk --enc obranueva "techint" y que me copie en variables el nombre del contrato, etc.
 * Tecla para poner el sistema en no-notifications / alarms-only / available (y discord estaría bueno también)
-* Capslock + jklñ + wb for words fowards and backwards
 * Buscar en clientes [link](http://atk.dnsdojo.net:2080/VS_ClientesTangolist.php?cmd=search&t=VS_ClientesTango&z_contratos=%3E%3D&x_contratos=&z_SALDO_CC=%3E%3D&x_SALDO_CC=&psearch=28525117&psearchtype=)
 * (half fix-me) Estaría bueno que no tenga que mantener apretado la tecla capslock para hacer los comandos, sino que tenga dos modos.
 * CapsLock + shift + AvPag no anda, lo mismo con todos los shifts 
+* En Thunderbird, F1-F4 llevan a las casillas de correo.
 
 ---
 ## FIX-ME
 
+* AutoHotKey Extension is long dead. Change it for a better one.
 * Dolar BNA no está imprimiendo el código de la página en dataBNA.py
 * Pegué el código de cuitonline.com, hacerlo andar con la página de AFIP
 * Si querés hacer zoom en el excel apretas Ctrl+Volumen up en el teclado y... subís el volumen, no aumentás el zoom

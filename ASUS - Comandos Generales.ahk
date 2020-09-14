@@ -35,7 +35,19 @@ else
 return
 
 ;-------------------------------------------------------------------------------
-; WIN+DEL
+; Win + n = OneNote
+
+#n::
+; IfWinExist, ahk_id 21836 ; OneNote process ID
+IfWinExist, Auca's Notebook ‎- OneNote for Windows 10 ; OneNote process ID
+	WinActivate, Auca's Notebook ‎- OneNote for Windows 10
+else
+	run C:\Windows apps shorcuts\OneNote for Windows 10 - Shortcut.lnk
+return
+
+
+;-------------------------------------------------------------------------------
+; Win + Del
 ; Empty trash
 #Del::
 FileRecycleEmpty
