@@ -1,7 +1,6 @@
 /* cSpell:disable */
 # TinyCode
 The tiny programs and scripts that don't deserve a project
-test
 
 # Comandos generales de AutoHotkey
 
@@ -108,7 +107,6 @@ Autohotkey control temperature
 * CapsLock + shift + AvPag no anda, lo mismo con todos los shifts 
 * En Thunderbird, F1-F4 llevan a las casillas de correo.
 * Algo que tome las canciones que escuchaste ultimamente y te tire algo que no escuchás hace mucho de tu biblioteca de Spotify.
-* print screen in powershell
 
 ---
 ## FIX-ME
@@ -117,4 +115,3 @@ Autohotkey control temperature
 * Dolar BNA no está imprimiendo el código de la página en dataBNA.py
 * Pegué el código de cuitonline.com, hacerlo andar con la página de AFIP
 * Si querés hacer zoom en el excel apretas Ctrl+Volumen up en el teclado y... subís el volumen, no aumentás el zoom
-* run powershell as administrator

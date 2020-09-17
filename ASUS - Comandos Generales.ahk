@@ -28,10 +28,10 @@ return
 ; Win + Ñ = PowerShell
 
 #ñ::
-IfWinExist, ahk_exe PowerShell.exe
-	WinActivate, ahk_exe PowerShell.exe
+IfWinExist, ahk_exe WindowsTerminal.exe
+	WinActivate, ahk_exe WindowsTerminal.exe
 else
-	run C:\Users\aucac\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk
+	run C:\Windows apps shorcuts\Windows Terminal - Shortcut.lnk
 return
 
 ;-------------------------------------------------------------------------------
