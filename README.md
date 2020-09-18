@@ -38,6 +38,9 @@ The tiny programs and scripts that don't deserve a project
 | `atkenc`                | Ruta a Encofrados              |  D:\Google Drive Atenko\1-Encofrados\2020\ |
 | `atkent`                | Ruta a Entibados               |  D:\Google Drive Atenko\2-Entibados\2020\  |
 | `exwork`                | Copypasta Ex-Works             |  2. Condición de entrega: EXWORK - Heinsberg, Alemania. |
+| `manuals600`          | Pega la ruta del manual de sbx |  D:\Google Drive Atenko\... Manual SBH Standarbox S600 |
+| `manuals300`          | Pega la ruta del manual de lbx |  D:\Google Drive Atenko\... Manual SBH Lightbox S600   |
+| `manuals750`          | Pega la ruta del manual de mcd |  D:\Google Drive Atenko\... Manual SBH Monocodal S750  |
 | `Empty cell`            | Empty cell                     |  Empty cell |
 ---
 # Otra info
@@ -87,7 +90,6 @@ Autohotkey control temperature
 * Shorcut para rerun this script (la ruta siempre es la misma)
 * Seleccionar cuit, pedir la constancia de inscripcion
 * shorcuts para abrir la pagina de santiago
-* [Stock](http://192.168.1.225/A_Articuloslist.php?cmd=reset) y se posicione en busqueda, por ejemplo Clientes, etc
 * Que se fije la ultima version del archivo presupuestos / contrato en el servidor
 * Shorcut para copiar en el portapapeles el valor del dólar BNA - Globito en la barra de tareas con el valor BNA
 * Macro en AutoCAD para que cambie de color los layers Cota FL FV Puntales
@@ -103,7 +105,8 @@ Autohotkey control temperature
 * jumpy for windows, jumpy for everything
 * Tecla para poner el sistema en no-notifications / alarms-only / available (y discord estaría bueno también)
 * Buscar en clientes [link](http://atk.dnsdojo.net:2080/VS_ClientesTangolist.php?cmd=search&t=VS_ClientesTango&z_contratos=%3E%3D&x_contratos=&z_SALDO_CC=%3E%3D&x_SALDO_CC=&psearch=28525117&psearchtype=)
-* (half fix-me) Estaría bueno que no tenga que mantener apretado la tecla capslock para hacer los comandos, sino que tenga dos modos.
+* Shorcuts para ir a la página de [Pedidos de presupuesto](http://atk.dnsdojo.net:2080/VS_pedido_presupuestolist.php)
+* [Stock](http://192.168.1.225/A_Articuloslist.php?cmd=reset) y se posicione en busqueda, por ejemplo Clientes, etc
 * CapsLock + shift + AvPag no anda, lo mismo con todos los shifts 
 * En Thunderbird, F1-F4 llevan a las casillas de correo.
 * Algo que tome las canciones que escuchaste ultimamente y te tire algo que no escuchás hace mucho de tu biblioteca de Spotify.
@@ -115,3 +118,4 @@ Autohotkey control temperature
 * Dolar BNA no está imprimiendo el código de la página en dataBNA.py
 * Pegué el código de cuitonline.com, hacerlo andar con la página de AFIP
 * Si querés hacer zoom en el excel apretas Ctrl+Volumen up en el teclado y... subís el volumen, no aumentás el zoom
+

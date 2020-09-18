@@ -25,7 +25,7 @@ else
 return
 
 ;-------------------------------------------------------------------------------
-; Win + Ñ = PowerShell
+; Win + Ñ = WindowsTerminal
 
 #ñ::
 IfWinExist, ahk_exe WindowsTerminal.exe
@@ -193,6 +193,18 @@ return
 
 ::exwork::
 SendRaw 2. Condición de entrega: EXWORK - Heinsberg, Alemania.
+return
+
+::manuals600::
+SendRaw D:\Google Drive Atenko\4-Información técnica\SBH Entibado\Sistemas SBH\Standardbox serie 600\Manual de operaciones - Estandarbox Serie 600.pdf
+return
+
+::manuals300::
+SendRaw D:\Google Drive Atenko\4-Información técnica\SBH Entibado\Sistemas SBH\Light Box Series 300\Manual de operaciones - Lightbox Serie 300.pdf
+return
+
+::manuals750:
+SendRaw D:\Google Drive Atenko\4-Información técnica\SBH Entibado\Sistemas SBH\Monocodal 750\Manual de operaciones - Monocodal 750.pdf
 return
 
 ;-------------------------------------------------------------------------------
