@@ -77,39 +77,31 @@ PLAZO DE ENTREGA:
 
 * `emailppto`, `seguimientoppto` y `conadmin` podria fijarse que hora es y poner "buen dia" o "buenas tardes"
 * Count Files
-* Shorcut para seleccionar pdfs y unirlos en Adobe Acrobat
-* Shorcut para [seleccionar tracks] añadir a lista de reproducción de VLC
-* Macro para sacar todas las imágenes e hipervinculos del Exce
+* Macro para sacar todas las imágenes e hipervinculos del Excel
 * Letra + Ctrl + G = letra griega
-* Cuando termina de sincronizar mega/gdrive que avise con un tono con Adobe Acrobat abierto Ctrl 7 8 9 para las distintas vistas
-* apagar el mousepad cuando escribis
-* Key play/pause on spotify or VLC or foobar2000
-Autohotkey control temperature
-* estaria bueno que pueda mutear conversaciones en ciertos horarios, y después que aparezca como notificacion sin hacer sonido
-* Celular script para que se saque la clave en wifi de casa
-* Shorcut para rerun this script (la ruta siempre es la misma)
+* Cuando termina de sincronizar mega/gdrive que avise con un tono
+* con Adobe Acrobat abierto Ctrl 7 8 9 para las distintas vistas
+* Autohotkey control temperature
 * Seleccionar cuit, pedir la constancia de inscripcion
-* shorcuts para abrir la pagina de santiago
 * Que se fije la ultima version del archivo presupuestos / contrato en el servidor
-* Shorcut para copiar en el portapapeles el valor del dólar BNA - Globito en la barra de tareas con el valor BNA
 * Macro en AutoCAD para que cambie de color los layers Cota FL FV Puntales
 * Que copie un texto en MAYUSCULAS y pegue el mismo texto Mayuscula.
-* F's Archivos obras, presupuesto 110, etc
 * Hacer que cuando abris un pdf no te abra los marcadores y la barra esa chota
 * Ver que onda Usar geometrical constraints + grupo + array para encofrados
+* Shorcut para copiar en el portapapeles el valor del dólar BNA - Globito en la barra de tareas con el valor BNA
 * Seleccionar un numero y dividirlo por el dolar planilla / dolar BNA
 * Machine learning para el codigo de AFIP
 * Copy as Path with Win+C
-* hotstring `manuals600` que pegue la ruta del manual de standarbox S600, así con los otros 2 manuales. (en teoría debería adjuntar el archivo correcto al email). Idem DOKA
 * Ahk/pyscript para crear carpetas Obra nueva encofrados / entibados, o sino Python Commmand prompt, que pueda ir a directorios y cree carpetas, como atk --enc obranueva "techint" y que me copie en variables el nombre del contrato, etc.
-* jumpy for windows, jumpy for everything
 * Tecla para poner el sistema en no-notifications / alarms-only / available (y discord estaría bueno también)
+* estaria bueno que pueda mutear conversaciones en ciertos horarios, y después que aparezca como notificacion sin hacer sonido
+* shorcuts para abrir la pagina de santiago en clientes, stock o pptos
 * Buscar en clientes [link](http://atk.dnsdojo.net:2080/VS_ClientesTangolist.php?cmd=search&t=VS_ClientesTango&z_contratos=%3E%3D&x_contratos=&z_SALDO_CC=%3E%3D&x_SALDO_CC=&psearch=28525117&psearchtype=)
 * Shorcuts para ir a la página de [Pedidos de presupuesto](http://atk.dnsdojo.net:2080/VS_pedido_presupuestolist.php)
 * [Stock](http://192.168.1.225/A_Articuloslist.php?cmd=reset) y se posicione en busqueda, por ejemplo Clientes, etc
-* CapsLock + shift + AvPag no anda, lo mismo con todos los shifts 
 * En Thunderbird, F1-F4 llevan a las casillas de correo.
 * Algo que tome las canciones que escuchaste ultimamente y te tire algo que no escuchás hace mucho de tu biblioteca de Spotify.
+* Contactos en la pc de atenko. Agregar la cuenta de Google y sincronizar los contactos de sistema atenko con las cuentas de Google (la de admin, y cada celular)
 
 ---
 ## FIX-ME
@@ -118,4 +110,14 @@ Autohotkey control temperature
 * Dolar BNA no está imprimiendo el código de la página en dataBNA.py
 * Pegué el código de cuitonline.com, hacerlo andar con la página de AFIP
 * Si querés hacer zoom en el excel apretas Ctrl+Volumen up en el teclado y... subís el volumen, no aumentás el zoom
+* CapsLock + shift + AvPag no anda, lo mismo con todos los shifts 
+
+
+## VIM
+
+* Poner algo mejor para los merge conflicts
+* view 2 windows
+* F2 Refactor
+* indent tabs multiple lines
+* logos for languages
 
