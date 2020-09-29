@@ -45,6 +45,16 @@ else
 	run C:\Windows apps shorcuts\OneNote for Windows 10 - Shortcut.lnk
 return
 
+;-------------------------------------------------------------------------------
+; Win + W = Whatsapp
+
+#w::
+IfWinExist, Whatsapp
+    WinActivate, Whatsapp
+else
+    run C:\Users\aucac\AppData\Local\WhatsApp\WhatsApp.exe
+return
+
 
 ;-------------------------------------------------------------------------------
 ; Win + Del
@@ -63,7 +73,6 @@ return
 	
 	MsgBox, % count
 */
-
 /*
 ;-------------------------------------------------------------------------------
 ; F7
@@ -93,16 +102,17 @@ Send, {CtrlDown}t{CtrlUp}
 ; TODO: go to site and paste CUIT
 
 ; go to Adress bar and lookup cuitonline
-Send, https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do
-Send, {Enter}
+Run, https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do
+; Send, https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do
 Sleep 150    ; Give Windows time to actually populate the clipboard - you may need to experiment with the time here.
-Send, ^v
+; Send, {Enter}
+Sleep 150    ; Give Windows time to actually populate the clipboard - you may need to experiment with the time here.
+; Send, ^v
 Send, {Tab}
-*/
 
 	; TO DO Ctrl F que busque "constancia de inscripcion" y le de click.
 	; TO DO que busque en nosis la cuit
-
+*/
 /*
 ::checkfile::
 if FileExist("D:\Google Drive Atenko\1-Encofrados\2020\Techint\Central Termica Barragan\Planos\CTB-101-INGE-C-EN-1401-1-H3.dwg")
@@ -196,15 +206,15 @@ SendRaw 2. Condición de entrega: EXWORK - Heinsberg, Alemania.
 return
 
 ::manuals600::
-SendRaw D:\Google Drive Atenko\4-Información técnica\SBH Entibado\Sistemas SBH\Standardbox serie 600\Manual de operaciones - Estandarbox Serie 600.pdf
+SendRaw D:\OneDrive\Trabajo\Atenko\Obras (One Drive)\Accesos directos\Manual de operaciones - Estandarbox Serie 600.pdf
 return
 
 ::manuals300::
-SendRaw D:\Google Drive Atenko\4-Información técnica\SBH Entibado\Sistemas SBH\Light Box Series 300\Manual de operaciones - Lightbox Serie 300.pdf
+SendRaw D:\OneDrive\Trabajo\Atenko\Obras (One Drive)\Accesos directos\Manual de operaciones - Lightbox Serie 300.pdf
 return
 
-::manuals750:
-SendRaw D:\Google Drive Atenko\4-Información técnica\SBH Entibado\Sistemas SBH\Monocodal 750\Manual de operaciones - Monocodal 750.pdf
+::manuals750::
+SendRaw D:\OneDrive\Trabajo\Atenko\Obras (One Drive)\Accesos directos\Manual de operaciones - Monocodal 750.pdf
 return
 
 ;-------------------------------------------------------------------------------

@@ -13,6 +13,7 @@ The tiny programs and scripts that don't deserve a project
 | Win + C           | Calc.exe      |   Abre Calc.exe o cambia la tarea. |
 | Win + N           | OneNote       |   Abre OneNote o cambia la tarea.  |
 | Win + Ñ           | Opens Powershell     |  Abre Powershell o cambia la tarea |
+| Win+W             | Whatsapp      |           |
 | Win+Del           | Empty recycle bin      |     |
 | Nothing           | Count Files      | Currently not working |
 | Ctrl+O            | Copy format in Excel      |   Alt+O+O+O |
@@ -64,7 +65,7 @@ PLAZO DE ENTREGA:
 
 > N días hábiles a partir de recibida la orden de compra y acreditación del pago.
 	
-### Nota precios en dólares: (para cuando se va todo a la re mierda)
+### Nota precios en dólares: 
 
 > 1.2. Los Precios están expresados en dólares Estadounidenses y serán facturados en pesos según la cotización dólar billete tipo vendedor del Banco de la Nación Argentina anterior a la fecha de facturación.
 	
@@ -111,7 +112,8 @@ PLAZO DE ENTREGA:
 * Pegué el código de cuitonline.com, hacerlo andar con la página de AFIP
 * Si querés hacer zoom en el excel apretas Ctrl+Volumen up en el teclado y... subís el volumen, no aumentás el zoom
 * CapsLock + shift + AvPag no anda, lo mismo con todos los shifts 
-
+* Arreglar Modelito Auca v4 en AutoCAD de la pc de atenko
+* Arreglar las rutas de manuals 600 y demases
 
 ## VIM
 
