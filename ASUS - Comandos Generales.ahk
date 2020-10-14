@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;-------------------------------------------------------------------------------
 ; 						     HOTKEYS
 ;-------------------------------------------------------------------------------
-/* dropped, now I use vs codej
+/* dropped, now I use vs code
 ; CTRL+WIN+ALT+4
 ; Opens this AHK Script for editing
 ^!#4::
