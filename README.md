@@ -103,6 +103,7 @@ PLAZO DE ENTREGA:
 * En Thunderbird, F1-F4 llevan a las casillas de correo.
 * Algo que tome las canciones que escuchaste ultimamente y te tire algo que no escuchás hace mucho de tu biblioteca de Spotify.
 * Contactos en la pc de atenko. Agregar la cuenta de Google y sincronizar los contactos de sistema atenko con las cuentas de Google (la de admin, y cada celular)
+* Una app que cuando seleccionas un texto, te busca el email, nombre y teléfono, escribe un correo a barbi y le pide el cliente con la cuit bajada
 
 ---
 ## FIX-ME
