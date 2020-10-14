@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;-------------------------------------------------------------------------------
 ; 						     HOTKEYS
 ;-------------------------------------------------------------------------------
-
+/* dropped, now I use vs codej
 ; CTRL+WIN+ALT+4
 ; Opens this AHK Script for editing
 ^!#4::
@@ -14,7 +14,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 	Edit
 	return
 }
-
+*/
 ;-------------------------------------------------------------------------------
 ; Win + C = Calculadora
 #c::
