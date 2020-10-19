@@ -6,23 +6,20 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;-------------------------------------------------------------------------------
 ; 						     HOTKEYS
 ;-------------------------------------------------------------------------------
-/* dropped, now I use vs code
 ; CTRL+WIN+ALT+4
-; Opens this AHK Script for editing
+; Reload this AHK Script 
 ^!#4::
-{
-	Edit
-	return
-}
-*/
+Reload
+Return
+
 ;-------------------------------------------------------------------------------
 ; Win + C = Calculadora
 #c::
-IfWinExist, Calculadora
-	WinActivate, Calculadora
+IfWinExist, Calculator
+	WinActivate, Calculator
 else
 	run C:\Windows\System32\calc.exe
-return
+Return
 
 ;-------------------------------------------------------------------------------
 ; Win + Ñ = WindowsTerminal
@@ -32,7 +29,7 @@ IfWinExist, ahk_exe WindowsTerminal.exe
 	WinActivate, ahk_exe WindowsTerminal.exe
 else
 	run C:\Windows apps shorcuts\Windows Terminal - Shortcut.lnk
-return
+Return
 
 ;-------------------------------------------------------------------------------
 ; Win + n = OneNote
@@ -43,7 +40,7 @@ IfWinExist, Auca's Notebook ‎- OneNote for Windows 10 ; OneNote process ID
 	WinActivate, Auca's Notebook ‎- OneNote for Windows 10
 else
 	run C:\Windows apps shorcuts\OneNote for Windows 10 - Shortcut.lnk
-return
+Return
 
 ;-------------------------------------------------------------------------------
 ; Win + W = Whatsapp
@@ -53,7 +50,7 @@ IfWinExist, Whatsapp
     WinActivate, Whatsapp
 else
     run C:\Users\aucac\AppData\Local\WhatsApp\WhatsApp.exe
-return
+Return
 
 
 ;-------------------------------------------------------------------------------
@@ -61,7 +58,7 @@ return
 ; Empty trash
 #Del::
 FileRecycleEmpty
-return
+Return
 
 ;-------------------------------------------------------------------------------
 /* Count Files
@@ -118,7 +115,7 @@ Send, {Tab}
 if FileExist("D:\Google Drive Atenko\1-Encofrados\2020\Techint\Central Termica Barragan\Planos\CTB-101-INGE-C-EN-1401-1-H3.dwg")
 	Send, asd
 	; MsgBox, Presupuesto 115 - 181031 exists
-return
+Return
 
 */
 
@@ -127,15 +124,22 @@ return
 ; 						HOTSTRINGS
 ;-------------------------------------------------------------------------------
 
+; Cuentas de correo
+:*o:ag.::aucacoyan@gmail.com
+:*o:ah.::aucacoyan@hotmail.com
+:*o:fp.::forosypaginas@gmail.com
+
+; -----------------------------------------------------------------
+
 ::aoe2m::
 Send, -p https://www.youtube.com/watch?v=jadxTFqyhRM&t=
-return
+Return
 ; -----------------------------------------------------------------
 
 ::mercadolibretexto::
 Send NO hago permutas.{Enter}
 Send Hago envíos por Mercadoenvíos o a elección del comprador.
-return
+Return
 
 ; -----------------------------------------------------------------
 
@@ -143,13 +147,13 @@ return
 Send {Enter}
 Send Le adjunto el presupuesto según lo pedido.
 Send {Enter}
-return
+Return
 
 ::seguimientoppto::
 Send {Enter}
 Send ¿Pudo ver el presupuesto? ¿Tiene dudas al respecto?
 Send {Enter}
-return
+Return
 
 ::condicionesestandar::
 Send Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF.
@@ -158,64 +162,64 @@ Send {Enter}
 Send {Enter}
 Send 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.
 Send {Enter}
-return
+Return
 
 ::cple::
 Send Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF.
 Send {Enter}
 Send 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.
 Send {Enter}
-return
+Return
 
 ::Contado anticipado::
 Send Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF.
-return
+Return
 
 ::4dh::
 Send 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.
-return
+Return
 
 ::72h::
 Send 48/72hs a partir de la cumplimentación de los requerimientos administrativos.									
-return
+Return
 
 ::sdisp::
 Send Según disponibilidad.
-return
+Return
 
 ::conadmin::
 Send {Enter}
 Send Para consultas administrativas o de retiro y devolución de materiales, consultar con Laura y Bárbara, en copia.
 Send {Enter}
-return
+Return
 
 ::stockenti::
 SendRaw http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR
-return
+Return
 
 ::atkenc::
-SendRaw D:\Google Drive Atenko\1-Encofrados\2020\
-return
+SendRaw G:\1-Encofrados\2020\
+Return
 
 ::atkent::
 SendRaw D:\Google Drive Atenko\2-Entibados\2020\
-return
+Return
 
 ::exwork::
 SendRaw 2. Condición de entrega: EXWORK - Heinsberg, Alemania.
-return
+Return
 
 ::manuals600::
 SendRaw D:\OneDrive\Trabajo\Atenko\Obras (One Drive)\Accesos directos\Manual de operaciones - Estandarbox Serie 600.pdf
-return
+Return
 
 ::manuals300::
 SendRaw D:\OneDrive\Trabajo\Atenko\Obras (One Drive)\Accesos directos\Manual de operaciones - Lightbox Serie 300.pdf
-return
+Return
 
 ::manuals750::
 SendRaw D:\OneDrive\Trabajo\Atenko\Obras (One Drive)\Accesos directos\Manual de operaciones - Monocodal 750.pdf
-return
+Return
 
 ;-------------------------------------------------------------------------------
 ; Excel
@@ -228,7 +232,7 @@ return
 	Send, f
 	Send, p
 	; Send, {ALT up}
-return
+Return
 
 /* ^O::				; excel en español
 Send, {ALT down}
@@ -236,5 +240,5 @@ Send, o
 Send, o
 Send, o
 Send, {ALT up}
-return
+Return
 */
