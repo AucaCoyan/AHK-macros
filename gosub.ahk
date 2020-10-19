@@ -1,10 +1,12 @@
 isAsus() {
-    If (%A_UserName% == aucac) {
-       bol := True
+    bol := False
+    MsgBox, %bol%
+    If (%A_UserName% == "aucac") {
+    bol := True
     }
     Else
-    If (%A_UserName% == Auca) {
-        bol := False
+    If (%A_UserName% == "Auca") {
+    bol := False
     }
     MsgBox, bol is currently %bol% ; 1 is True, 0 is false
     Return bol
