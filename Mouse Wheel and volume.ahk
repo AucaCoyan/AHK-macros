@@ -371,5 +371,4 @@ return                                                               ;|
 ;                     CapsLock + t  |  Open Text Editor              ;|
 ;-----------------------------------o---------------------------------o
 CapsLock & r:: Run Powershell                                        ;|
-CapsLock & t:: Run C:\Windows apps shorcuts\VS Code.lnk   			 ;|
 ;---------------------------------------------------------------------o
