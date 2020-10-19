@@ -1,17 +1,18 @@
 isAsus() {
     If (%A_UserName% == aucac) {
-        return True
+       bol := True
     }
     Else
-    If (%A_UserName% == AUCA) {
-    return False
+    If (%A_UserName% == Auca) {
+        bol := False
     }
+    Return bol
 }
 
 MsgBox, user is %A_UserName%
 If (isAsus()) {
-MsgBox, This pc is %A_UserName%
+MsgBox, This pc is ASUS
 }
 Else
-MsgBox, This pc is %A_UserName%
+MsgBox, This pc is Lenovo
 return
