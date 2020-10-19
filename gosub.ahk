@@ -6,6 +6,7 @@ isAsus() {
     If (%A_UserName% == Auca) {
         bol := False
     }
+    MsgBox, bol is currently %bol% ; 1 is True, 0 is false
     Return bol
 }
 
