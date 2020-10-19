@@ -1,5 +1,9 @@
 isAsus() {
+    If (%A_UserName% is aucac)
     return True
+    Else
+    If (%A_UserName% is AUCA)
+    return False
 }
 
 If (isAsus())
