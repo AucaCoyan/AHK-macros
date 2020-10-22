@@ -116,6 +116,7 @@ PLAZO DE ENTREGA:
 * CapsLock + shift + AvPag no anda, lo mismo con todos los shifts 
 * Arreglar Modelito Auca v4 en AutoCAD de la pc de atenko
 * Arreglar las rutas de manuals 600 y demases
+* en atenko el link de stockenti es http://192.168.1.225/A_Articuloslist.php?cmd=search&t=A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR
 
 ## VIM
 
