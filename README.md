@@ -39,9 +39,9 @@ The tiny programs and scripts that don't deserve a project
 | `atkenc`                | Ruta a Encofrados              |  D:\Google Drive Atenko\1-Encofrados\2020\ |
 | `atkent`                | Ruta a Entibados               |  D:\Google Drive Atenko\2-Entibados\2020\  |
 | `exwork`                | Copypasta Ex-Works             |  2. Condición de entrega: EXWORK - Heinsberg, Alemania. |
-| `manuals600`          | Pega la ruta del manual de sbx |  D:\Google Drive Atenko\... Manual SBH Standarbox S600 |
-| `manuals300`          | Pega la ruta del manual de lbx |  D:\Google Drive Atenko\... Manual SBH Lightbox S600   |
-| `manuals750`          | Pega la ruta del manual de mcd |  D:\Google Drive Atenko\... Manual SBH Monocodal S750  |
+| `manuals600`            | Pega la ruta del manual de sbx |  D:\Google Drive Atenko\... Manual SBH Standarbox S600 |
+| `manuals300`            | Pega la ruta del manual de lbx |  D:\Google Drive Atenko\... Manual SBH Lightbox S600   |
+| `manuals750`            | Pega la ruta del manual de mcd |  D:\Google Drive Atenko\... Manual SBH Monocodal S750  |
 | `Empty cell`            | Empty cell                     |  Empty cell |
 ---
 # Otra info
@@ -68,7 +68,9 @@ PLAZO DE ENTREGA:
 ### Nota precios en dólares: 
 
 > 1.2. Los Precios están expresados en dólares Estadounidenses y serán facturados en pesos según la cotización dólar billete tipo vendedor del Banco de la Nación Argentina anterior a la fecha de facturación.
-	
+
+### Nota reauste en dólares (la vieja nota que nunca se reajustaba)
+ > Los Precios están expresados en pesos y serán reajustados según la variación que experimente la cotización oficial del dólar estadounidense tipo vendedor publicada por Banco Nación Argentina entre la fecha de facturación del periodo inicial y la del día anterior a la fecha de cada facturación.
 
 ### Notita precios se van a ajustar por CAC
 > Los precios de alquiler están expresados en pesos argentinos y corresponden a los valores iniciales del contrato original, los mismos serán reajustados según NOTA 1.2 del contrato desde el inicio del mismo.
@@ -109,6 +111,7 @@ PLAZO DE ENTREGA:
 ---
 ## FIX-ME
 
+* Orden de las carpetas en el Windows Explorer que sea parecido (o el mismo)
 * AutoHotKey Extension is long dead. Change it for a better one.
 * Dolar BNA no está imprimiendo el código de la página en dataBNA.py
 * Pegué el código de cuitonline.com, hacerlo andar con la página de AFIP
