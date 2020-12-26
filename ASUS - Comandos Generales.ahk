@@ -49,7 +49,7 @@ Return
 IfWinExist, Whatsapp
     WinActivate, Whatsapp
 else
-    run C:\Users\aucac\AppData\Local\WhatsApp\WhatsApp.exe
+    run C:\Users\Auca\AppData\Local\WhatsApp\WhatsApp.exe
 Return
 
 
@@ -136,13 +136,6 @@ Send, -p https://www.youtube.com/watch?v=jadxTFqyhRM&t=
 Return
 ; -----------------------------------------------------------------
 
-::mercadolibretexto::
-Send NO hago permutas.{Enter}
-Send Hago envíos por Mercadoenvíos o a elección del comprador.
-Return
-
-; -----------------------------------------------------------------
-
 ::emailppto::
 Send {Enter}
 Send Le adjunto el presupuesto según lo pedido.
@@ -195,14 +188,6 @@ Return
 
 ::stockenti::
 SendRaw http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR
-Return
-
-::atkenc::
-SendRaw G:\1-Encofrados\2020\
-Return
-
-::atkent::
-SendRaw D:\Google Drive Atenko\2-Entibados\2020\
 Return
 
 ::exwork::
