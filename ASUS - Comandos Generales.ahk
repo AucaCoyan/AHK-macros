@@ -52,7 +52,6 @@ else
     run C:\Users\Auca\AppData\Local\WhatsApp\WhatsApp.exe
 Return
 
-
 ;-------------------------------------------------------------------------------
 ; Win + Del
 ; Empty trash

@@ -14,6 +14,16 @@ else
 	run C:\Windows\System32\calc.exe
 return
 
+-------------------------------------------------------------------------------
+; Win + W = Whatsapp
+
+#w::
+IfWinExist, Whatsapp
+    WinActivate, Whatsapp
+else
+    run C:\Users\Auca\AppData\Local\WhatsApp\WhatsApp.exe
+Return
+
 ;-------------------------------------------------------------------------------
 ; WIN+DEL
 ; Empty trash

@@ -120,6 +120,7 @@ PLAZO DE ENTREGA:
 * Arreglar Modelito Auca v4 en AutoCAD de la pc de atenko
 * Arreglar las rutas de manuals 600 y demases
 * en atenko el link de stockenti es http://192.168.1.225/A_Articuloslist.php?cmd=search&t=A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR
+* Algunos comandos están en Atenko y otros están en Asus. (como Win+Ñ, aoe2m, etc) indicar
 
 ## VIM
 
