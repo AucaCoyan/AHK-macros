@@ -193,18 +193,6 @@ Return
 SendRaw 2. Condición de entrega: EXWORK - Heinsberg, Alemania.
 Return
 
-::manuals600::
-SendRaw D:\OneDrive\Trabajo\Atenko\Obras (One Drive)\Accesos directos\Manual de operaciones - Estandarbox Serie 600.pdf
-Return
-
-::manuals300::
-SendRaw D:\OneDrive\Trabajo\Atenko\Obras (One Drive)\Accesos directos\Manual de operaciones - Lightbox Serie 300.pdf
-Return
-
-::manuals750::
-SendRaw D:\OneDrive\Trabajo\Atenko\Obras (One Drive)\Accesos directos\Manual de operaciones - Monocodal 750.pdf
-Return
-
 ;-------------------------------------------------------------------------------
 ; Excel
 ; Shorcut Ctrl+O = Copy Format

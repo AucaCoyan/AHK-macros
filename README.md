@@ -39,9 +39,6 @@ The tiny programs and scripts that don't deserve a project
 | `atkenc`                | Ruta a Encofrados              |  D:\Google Drive Atenko\1-Encofrados\2020\ |
 | `atkent`                | Ruta a Entibados               |  D:\Google Drive Atenko\2-Entibados\2020\  |
 | `exwork`                | Copypasta Ex-Works             |  2. Condición de entrega: EXWORK - Heinsberg, Alemania. |
-| `manuals600`            | Pega la ruta del manual de sbx |  D:\Google Drive Atenko\... Manual SBH Standarbox S600 |
-| `manuals300`            | Pega la ruta del manual de lbx |  D:\Google Drive Atenko\... Manual SBH Lightbox S600   |
-| `manuals750`            | Pega la ruta del manual de mcd |  D:\Google Drive Atenko\... Manual SBH Monocodal S750  |
 | `Empty cell`            | Empty cell                     |  Empty cell |
 ---
 # Otra info
