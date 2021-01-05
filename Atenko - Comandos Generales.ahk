@@ -107,3 +107,7 @@ return
 ::stockenti::
 SendRaw http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR
 return
+
+::exwork::
+SendRaw 2. Condición de entrega: EXWORK - Heinsberg, Alemania.
+Return
