@@ -91,7 +91,7 @@ PLAZO DE ENTREGA:
 * Shorcut para copiar en el portapapeles el valor del dólar BNA - Globito en la barra de tareas con el valor BNA
 * Seleccionar un numero y dividirlo por el dolar planilla / dolar BNA
 * Machine learning para el codigo de AFIP
-* Copy as Path with Win+C
+* Copy as Path with Win+C (actualmente es calc.exe)
 * Ahk/pyscript para crear carpetas Obra nueva encofrados / entibados, o sino Python Commmand prompt, que pueda ir a directorios y cree carpetas, como atk --enc obranueva "techint" y que me copie en variables el nombre del contrato, etc.
 * Tecla para poner el sistema en no-notifications / alarms-only / available (y discord estaría bueno también)
 * estaria bueno que pueda mutear conversaciones en ciertos horarios, y después que aparezca como notificacion sin hacer sonido
@@ -99,23 +99,22 @@ PLAZO DE ENTREGA:
 * Buscar en clientes [link](http://atk.dnsdojo.net:2080/VS_ClientesTangolist.php?cmd=search&t=VS_ClientesTango&z_contratos=%3E%3D&x_contratos=&z_SALDO_CC=%3E%3D&x_SALDO_CC=&psearch=28525117&psearchtype=)
 * Shorcuts para ir a la página de [Pedidos de presupuesto](http://atk.dnsdojo.net:2080/VS_pedido_presupuestolist.php)
 * [Stock](http://192.168.1.225/A_Articuloslist.php?cmd=reset) y se posicione en busqueda, por ejemplo Clientes, etc
-* En Thunderbird, F1-F4 llevan a las casillas de correo.
 * Algo que tome las canciones que escuchaste ultimamente y te tire algo que no escuchás hace mucho de tu biblioteca de Spotify.
 * Contactos en la pc de atenko. Agregar la cuenta de Google y sincronizar los contactos de sistema atenko con las cuentas de Google (la de admin, y cada celular)
 * Una app que cuando seleccionas un texto, te busca el email, nombre y teléfono, escribe un correo a barbi y le pide el cliente con la cuit bajada
 * Algo para que cuando copie mailto:aucacoyan@gmail.com me saque el mailto y me pegue solo el email.
+* hotstring para la ruta de los manuales, algo como mdokaflex, mh20, mdual, mtower, msd, etc.
+* Algo para automatizar la parte de autofill en el contrato, quizas pueda copiar y pegar el texto
+* Una celda en DATOS que le pongas el valor y te modifique el valor de garantia en la hoja NOTAS
 
 ---
 ## FIX-ME
 
-* Orden de las carpetas en el Windows Explorer que sea parecido (o el mismo)
-* AutoHotKey Extension is long dead. Change it for a better one.
 * Dolar BNA no está imprimiendo el código de la página en dataBNA.py
 * Pegué el código de cuitonline.com, hacerlo andar con la página de AFIP
 * Si querés hacer zoom en el excel apretas Ctrl+Volumen up en el teclado y... subís el volumen, no aumentás el zoom
 * CapsLock + shift + AvPag no anda, lo mismo con todos los shifts 
 * Arreglar Modelito Auca v4 en AutoCAD de la pc de atenko
-* Arreglar las rutas de manuals 600 y demases
 * en atenko el link de stockenti es http://192.168.1.225/A_Articuloslist.php?cmd=search&t=A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR
 * Algunos comandos están en Atenko y otros están en Asus. (como Win+Ñ, aoe2m, etc) indicar
 
