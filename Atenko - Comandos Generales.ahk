@@ -24,6 +24,16 @@ else
     run C:\Users\Auca\AppData\Local\WhatsApp\WhatsApp.exe
 Return
 
+-------------------------------------------------------------------------------
+; Win + X = Excel
+
+#x::
+IfWinExist, Excel
+    WinActivate, Excel 
+else
+    run C:\Program Files\Microsoft Office\Office16\EXCEL.EXE 
+Return
+
 ;-------------------------------------------------------------------------------
 ; WIN+DEL
 ; Empty trash
