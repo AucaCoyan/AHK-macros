@@ -103,6 +103,11 @@ return
 Send 48/72hs a partir de la cumplimentación de los requerimientos administrativos.									
 return
 
+::restodelmes::
+Send Primeros 30 días: 50{`%} anticipado. Saldo: valor a 30 días FF. IVA con valor al día 15 del mes posterior al de facturación.
+Send {Enter}
+Send Períodos subsiguientes: 30 días FF.
+
 ::sdisp::
 Send Según disponibilidad.
 return
