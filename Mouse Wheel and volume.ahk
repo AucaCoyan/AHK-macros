@@ -333,7 +333,7 @@ CapsLock & n:: Send, ^{BS}                                           ;|
 ;                    CapsLock + F1  |  Volume_Mute                   ;|
 ;                    CapsLock + F2  |  Volume_Down                   ;|
 ;                    CapsLock + F3  |  Volume_Up                     ;|
-;                    CapsLock + F3  |  Media_Play_Pause              ;|
+;                    CapsLock + F4  |  Media_Play_Pause              ;|
 ;                    CapsLock + F5  |  Media_Next                    ;|
 ;                    CapsLock + F6  |  Media_Stop                    ;|
 ;-----------------------------------o---------------------------------o
