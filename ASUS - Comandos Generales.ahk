@@ -135,12 +135,6 @@ Send, -p https://www.youtube.com/watch?v=jadxTFqyhRM&t=
 Return
 ; -----------------------------------------------------------------
 
-::emailppto::
-Send {Enter}
-Send Le adjunto el presupuesto según lo pedido.
-Send {Enter}
-Return
-
 ::seguimientoppto::
 Send {Enter}
 Send ¿Pudo ver el presupuesto? ¿Tiene dudas al respecto?
@@ -155,6 +149,8 @@ Send {Enter}
 Send 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.
 Send {Enter}
 Return
+
+;; insertar comentario
 
 ::cple::
 Send Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF.
