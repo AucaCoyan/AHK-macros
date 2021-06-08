@@ -75,18 +75,15 @@ PLAZO DE ENTREGA:
 ---
 # TO-DO
 
-* `emailppto`, `seguimientoppto` y `conadmin` podria fijarse que hora es y poner "buen dia" o "buenas tardes"
+* Que se fije la ultima version del archivo presupuestos / contrato en el servidor
+* Seleccionar cuit, pedir la constancia de inscripcion
 * Count Files
 * Macro para sacar todas las imágenes e hipervinculos del Excel
 * Letra + Ctrl + G = letra griega
-* Cuando termina de sincronizar mega/gdrive que avise con un tono
 * con Adobe Acrobat abierto Ctrl 7 8 9 para las distintas vistas
-* Autohotkey control temperature
-* Seleccionar cuit, pedir la constancia de inscripcion
-* Que se fije la ultima version del archivo presupuestos / contrato en el servidor
+* Hacer que cuando abris un pdf no te abra los marcadores y la barra esa chota
 * Macro en AutoCAD para que cambie de color los layers Cota FL FV Puntales
 * Que copie un texto en MAYUSCULAS y pegue el mismo texto Mayuscula.
-* Hacer que cuando abris un pdf no te abra los marcadores y la barra esa chota
 * Ver que onda Usar geometrical constraints + grupo + array para encofrados
 * Shorcut para copiar en el portapapeles el valor del dólar BNA - Globito en la barra de tareas con el valor BNA
 * Seleccionar un numero y dividirlo por el dolar planilla / dolar BNA
