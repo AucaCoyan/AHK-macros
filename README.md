@@ -103,6 +103,7 @@ PLAZO DE ENTREGA:
 * hotstring para la ruta de los manuales, algo como mdokaflex, mh20, mdual, mtower, msd, etc.
 * Algo para automatizar la parte de autofill en el contrato, quizas pueda copiar y pegar el texto
 * Una celda en DATOS que le pongas el valor y te modifique el valor de garantia en la hoja NOTAS
+* Algo que puedas escribir y te abra la carpeta de Encofrados 2021, en lo posible que tenga un dropdown. Un poco está en everything, pero lleva muchos pasos.
 
 ---
 ## FIX-ME
@@ -114,12 +115,3 @@ PLAZO DE ENTREGA:
 * Arreglar Modelito Auca v4 en AutoCAD de la pc de atenko
 * en atenko el link de stockenti es http://192.168.1.225/A_Articuloslist.php?cmd=search&t=A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR
 * Algunos comandos están en Atenko y otros están en Asus. (como Win+Ñ, aoe2m, etc) indicar
-
-## VIM
-
-* Poner algo mejor para los merge conflicts
-* view 2 windows
-* F2 Refactor
-* indent tabs multiple lines
-* logos for languages
-
