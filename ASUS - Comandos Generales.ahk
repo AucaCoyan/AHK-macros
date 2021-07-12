@@ -49,7 +49,7 @@ Return
 IfWinExist, Whatsapp
     WinActivate, Whatsapp
 else
-    run C:\Users\Auca\AppData\Local\WhatsApp\WhatsApp.exe
+    run C:\Users\aucac\AppData\Local\WhatsApp\WhatsApp.exe
 Return
 
 ;-------------------------------------------------------------------------------
