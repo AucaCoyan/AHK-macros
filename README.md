@@ -79,7 +79,7 @@ PLAZO DE ENTREGA:
 * Seleccionar cuit, pedir la constancia de inscripcion
 * Count Files
 * Macro para sacar todas las imágenes e hipervinculos del Excel
-* Letra + Ctrl + G = letra griega
+* Letra + Ctrl + G = letra griega. En este puedo apretar Ctrl + G y después la letra y que inserte la letra griega que quiero. Lo uso muy poco tho.
 * con Adobe Acrobat abierto Ctrl 7 8 9 para las distintas vistas
 * Hacer que cuando abris un pdf no te abra los marcadores y la barra esa chota
 * Macro en AutoCAD para que cambie de color los layers Cota FL FV Puntales
@@ -104,7 +104,7 @@ PLAZO DE ENTREGA:
 * Algo para automatizar la parte de autofill en el contrato, quizas pueda copiar y pegar el texto
 * Una celda en DATOS que le pongas el valor y te modifique el valor de garantia en la hoja NOTAS
 * Algo que puedas escribir y te abra la carpeta de Encofrados 2021, en lo posible que tenga un dropdown. Un poco está en everything, pero lleva muchos pasos.
-* Algún índice que te permita buscar en https://pf2easy.com/
+* Algún índice que te permita buscar en [Pf 2 easy tools](https://pf2easy.com/advanced/). una combinación de pf {espacio} texto en el ms edge y te busque en advanced search. También puede buscar en el tree, que es útil
 
 ---
 ## FIX-ME
