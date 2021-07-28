@@ -126,3 +126,5 @@ return
 ::exwork::
 SendRaw 2. Condición de entrega: EXWORK - Heinsberg, Alemania.
 Return
+
+:*o:calidadatk::calidad@atenko.com
