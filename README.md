@@ -104,6 +104,7 @@ PLAZO DE ENTREGA:
 * Algo para automatizar la parte de autofill en el contrato, quizas pueda copiar y pegar el texto
 * Una celda en DATOS que le pongas el valor y te modifique el valor de garantia en la hoja NOTAS
 * Algo que puedas escribir y te abra la carpeta de Encofrados 2021, en lo posible que tenga un dropdown. Un poco está en everything, pero lleva muchos pasos.
+* Algún índice que te permita buscar en https://pf2easy.com/
 
 ---
 ## FIX-ME
