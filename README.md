@@ -39,6 +39,7 @@ The tiny programs and scripts that don't deserve a project
 | `atkenc`                | Ruta a Encofrados              |  D:\Google Drive Atenko\1-Encofrados\2020\ |
 | `atkent`                | Ruta a Entibados               |  D:\Google Drive Atenko\2-Entibados\2020\  |
 | `exwork`                | Copypasta Ex-Works             |  2. Condición de entrega: EXWORK - Heinsberg, Alemania. |
+| `calidadatk`            | calidad@atenko.com             |             |
 | `Empty cell`            | Empty cell                     |  Empty cell |
 ---
 # Otra info
