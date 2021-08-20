@@ -61,20 +61,6 @@ return
 ; 						HOTSTRINGS
 ;-------------------------------------------------------------------------------
 
-::emailppto::
-	; TO DO: podria fijarse que hora es y poner "buen dia" o "buenas tardes"
-Send {Enter}
-Send Le adjunto el presupuesto según lo pedido.
-Send {Enter}
-return
-
-::seguimientoppto::
-	; TO DO: podria fijarse que hora es y poner "buen dia" o "buenas tardes"
-Send {Enter}
-Send ¿Pudo ver el presupuesto? ¿Tiene dudas al respecto?
-Send {Enter}
-return
-
 ::condicionesestandar::
 Send Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF.
 Send {Enter}
@@ -126,3 +112,5 @@ return
 ::exwork::
 SendRaw 2. Condición de entrega: EXWORK - Heinsberg, Alemania.
 Return
+
+:*o:calidadatk::calidad@atenko.com

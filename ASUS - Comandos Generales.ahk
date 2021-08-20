@@ -59,21 +59,9 @@ Return
 FileRecycleEmpty
 Return
 
-;-------------------------------------------------------------------------------
-/* Count Files
-	
-	loop, D:\Google Drive\Downloads\*.*, 2, 1
-	{
-		count++
-	}
-	
-	MsgBox, % count
-*/
-/*
-;-------------------------------------------------------------------------------
 ; F7
 ; Copy already selected text and google up in cuitonline.com
-
+/*
 F7::
 	; TO DO Saves old clipboard and clean clipboard
 	; clipsaved:= ClipboardAll    ; This line is here so the original clipboard contents can be restored when the script is finished
@@ -109,6 +97,7 @@ Send, {Tab}
 	; TO DO Ctrl F que busque "constancia de inscripcion" y le de click.
 	; TO DO que busque en nosis la cuit
 */
+
 /*
 ::checkfile::
 if FileExist("D:\Google Drive Atenko\1-Encofrados\2020\Techint\Central Termica Barragan\Planos\CTB-101-INGE-C-EN-1401-1-H3.dwg")
@@ -129,17 +118,6 @@ Return
 :*o:fp.::forosypaginas@gmail.com
 
 ; -----------------------------------------------------------------
-
-::aoe2m::
-Send, -p https://www.youtube.com/watch?v=jadxTFqyhRM&t=
-Return
-; -----------------------------------------------------------------
-
-::seguimientoppto::
-Send {Enter}
-Send ¿Pudo ver el presupuesto? ¿Tiene dudas al respecto?
-Send {Enter}
-Return
 
 ::condicionesestandar::
 Send Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF.
