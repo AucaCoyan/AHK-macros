@@ -73,7 +73,6 @@ PLAZO DE ENTREGA:
 * Algo para que cuando copie mailto:aucacoyan@gmail.com me saque el mailto y me pegue solo el email.
 * Que se fije la ultima version del archivo presupuestos / contrato en el servidor
 * Seleccionar cuit, pedir la constancia de inscripcion
-* Count Files
 * Hacer que cuando abris un pdf no te abra los marcadores y la barra esa chota
 * Macro en AutoCAD para que cambie de color los layers Cota FL FV Puntales
 * Que copie un texto en MAYUSCULAS y pegue el mismo texto Mayuscula.

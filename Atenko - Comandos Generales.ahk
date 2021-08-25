@@ -98,6 +98,14 @@ Send Períodos subsiguientes: 30 días FF.
 Send Según disponibilidad.
 return
 
+:*:s150c::
+Send, 356{Shift}+{End}{Delete}{Tab}689{Delete}{Delete}{Delete}{Tab}22{Tab}6,80
+return
+
+:*:t150c::
+Send, 567{Shift}+{End}{Delete}{Tab}689{Delete}{Delete}{Delete}{Tab}40{Tab}10,80
+return
+
 ::conadmin::
 	; TO DO: podria fijarse que hora es y poner "buen dia" o "buenas tardes"
 Send {Enter}
