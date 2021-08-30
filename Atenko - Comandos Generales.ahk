@@ -3,6 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+; #Include HotstringsAtk.ahk
 ;-------------------------------------------------------------------------------
 ; 						     HOTKEYS
 ;-------------------------------------------------------------------------------
@@ -61,15 +62,6 @@ return
 ; 						HOTSTRINGS
 ;-------------------------------------------------------------------------------
 
-::condicionesestandar::
-Send Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF.
-Send {Enter}
-Send {Enter}
-Send {Enter}
-Send 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.
-Send {Enter}
-return
-
 ::cple::
 Send Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF.
 Send {Enter}
@@ -111,10 +103,6 @@ return
 Send {Enter}
 Send Para consultas administrativas o de retiro y devolución de materiales, consultar con Laura y Bárbara, en copia.
 Send {Enter}
-return
-
-::stockenti::
-SendRaw http://atk.dnsdojo.net:2080/A_Articuloslist.php?cmd=search&t=A_Articulos&psearch=box+codal+pasador+perno+clip&psearchtype=OR
 return
 
 ::exwork::
