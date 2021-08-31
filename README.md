@@ -90,6 +90,7 @@ PLAZO DE ENTREGA:
 * Una app que cuando seleccionas un texto, te busca el email, nombre y teléfono, escribe un correo a barbi y le pide el cliente con la cuit bajada
 * hotstring para la ruta de los manuales, algo como mdokaflex, mh20, mdual, mtower, msd, etc.
 * Algo que puedas escribir y te abra la carpeta de Encofrados 2021, en lo posible que tenga un dropdown. Un poco está en everything, pero lleva muchos pasos.
+* Aprender a hacer Releases de archivos
 
 ---
 ## FIX-ME
