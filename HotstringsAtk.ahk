@@ -29,19 +29,19 @@ Send Según disponibilidad.
 return
 
 :*:s150c::
-Send, 356{Shift}+{End}{Delete}{Tab}689{Delete}{Delete}{Delete}{Tab}22{Tab}6.80
+Send, 356{Shift}+{End}{Delete}{Tab}{Shift}+{End}{Delete}6890{Delete}{Delete}{Delete}{Tab}22{Tab}6.80
 return
 
 :*:2s150c::
-Send, 712{Shift}+{End}{Delete}{Tab}689{Delete}{Delete}{Delete}{Tab}44{Tab}13.60
+Send, 712{Shift}+{End}{Delete}{Tab}{Shift}+{End}{Delete}6890{Delete}{Delete}{Delete}{Tab}44{Tab}13.60
 return
 
 :*:t150c::
-Send, 567{Shift}+{End}{Delete}{Tab}689{Delete}{Delete}{Delete}{Tab}40{Tab}10.80
+Send, 567{Shift}+{End}{Delete}{Tab}{Shift}+{End}{Delete}6890{Delete}{Delete}{Delete}{Tab}40{Tab}10.80
 return
 
 :*:2t150c::
-Send, 1134{Shift}+{End}{Delete}{Tab}689{Delete}{Delete}{Delete}{Tab}80{Tab}21.60
+Send, 1134{Shift}+{End}{Delete}{Tab}{Shift}+{End}{Delete}6890{Delete}{Delete}{Delete}{Tab}80{Tab}21.60
 return
 
 ::conadmin::
