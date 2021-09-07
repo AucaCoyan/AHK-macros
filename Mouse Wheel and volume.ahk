@@ -52,9 +52,11 @@ return                                                               ;|
 ;                            CapsLock Editor                         ;|
 ;-----------------------------------o---------------------------------o
 ;                     CapsLock + w  |  Ctrl + Right(Move as [vim: w]);|
+;                     CapsLock + e  |  Ctrl + Right(Move as [vim: e]);|
 ;                     CapsLock + b  |  Ctrl + Left (Move as [vim: b]);|
 ;-----------------------------------o---------------------------------o
 CapsLock & w:: Send, ^{Right}                                        ;|
+CapsLock & e:: Send, ^{Right}{Left}                                  ;|
 CapsLock & b:: Send, ^{Left}                                         ;|
 ;---------------------------------------------------------------------o
 
