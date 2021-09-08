@@ -10,6 +10,7 @@ The tiny programs and scripts that don't deserve a project
 | Hotkey            | Do            | Comments  |
 | ----------------- |:-------------:| ---------:|
 | Win + C           | Calc.exe      |   Abre Calc.exe o cambia la tarea. |
+| Win + E           | Copia email seleccionado      | Con el texto ya seleccionado, copia al Clipboard el correo que encuentra |
 | Win + N           | OneNote       |   Abre OneNote o cambia la tarea.  |
 | Win + Ñ           | Opens Powershell     |  Abre Powershell o cambia la tarea |
 | Win+W             | Whatsapp      |           |

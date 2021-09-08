@@ -59,12 +59,22 @@ Return
 
 :*o:mcg.::martincarlis@gmail.com
 
-/*
---- Depreciated---
+; Commands ---------------------------------------------------------------------
+^e:: ;Ctrl-E to copy the email adress in the (already) selected text)
 
-::Contado anticipado::
-Send Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF.
+Clipboard =     ;Empty Clipboard
+Sleep 50
+Send ^c
+Clipwait, 2
+If !Clipboard
+{
+  Msgbox, Error Copying Email!
+  Return
+}
+Email := Clipboard
+
+;Find Email (Credit goes to k3ph)
+RegExMatch(Email, "[\_]*([a-z0-9]+(\.|\_*)?)+@([a-z][a-z0-9\-]+(\.|\-*\.))+[a-z]{2,6}", EmailAddress)
+
+Clipboard := EmailAddress
 return
-
-
-*/
