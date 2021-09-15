@@ -74,7 +74,7 @@ If !Clipboard
 Email := Clipboard
 
 ;Find Email (Credit goes to k3ph)
-RegExMatch(Email, "[\_]*([a-z0-9]+(\.|\_*)?)+@([a-z][a-z0-9\-]+(\.|\-*\.))+[a-z]{2,6}", EmailAddress)
+RegExMatch(Email, "[\_]*([a-zA-Z0-9]+(\.|\_*)?)+@([a-zA-Z][a-zA-Z0-9\-]+(\.|\-*\.))+[a-zA-Z]{2,6}", EmailAddress)
 
 Clipboard := EmailAddress
 return
