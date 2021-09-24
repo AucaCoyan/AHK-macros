@@ -22,18 +22,18 @@ The tiny programs and scripts that don't deserve a project
 ---
 ## Hotstrings
 
-| Hotstring               | Hace                           | Texto              |
+| Hotstring               | Que hace                       | Texto              |
 | ----------------------  |:------------------------------:| ---------------------:|
-| `cple`                  |  las dos condiciones más normales, en la hoja datos     |  Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF. **{Enter}** 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.   |
-| `4dh`                   | Solo el plazo de entrega 4 dias|  4 días hábiles a partir de la acreditación del pago y presentación de requisitos. |
-| `72h`                   | Solo el plazo de entrega 72hs  |  48/72hs a partir de la cumplimentación de los requerimientos administrativos.		 |
-| `ivaposterior`          | IVA retrasado un mes | Primeros 30 días: 50% anticipado. Saldo: valor a 30 días FF. IVA con valor al día 15 del mes posterior al de facturación. **{Enter}** Períodos subsiguientes: 30 días FF. 48/72hs a partir de la cumplimentación de los requerimientos administrativos.		 |
+| `cple`                  |  Las dos condiciones más normales, en la hoja datos     |  Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF. **{Enter}** 5 días hábiles a partir de la acreditación del pago y presentación de requisitos.   |
+| `5dh`                   | Solo el plazo de entrega 5 dias|  5 días hábiles a partir de la acreditación del pago y presentación de requisitos. |
+| `96h`                   | Solo el plazo de entrega 96hs  |  48/96hs a partir de la cumplimentación de los requerimientos administrativos.		 |
+| `ivaposterior`          | IVA retrasado un mes | Primeros 30 días: 50% anticipado. Saldo: valor a 30 días FF. IVA con valor al día 15 del mes posterior al de facturación. **{Enter}** Períodos subsiguientes: 30 días FF. 48/96hs a partir de la cumplimentación de los requerimientos administrativos.		 |
 | `sdisp`                 | Según disponibilidad.          |    Según disponibilidad. |
-| `s150c`            | Propiedades de la S150 para el Tipos Beam    |  - |
-| `2s150c`            | Propiedades de las 2S150 para el Tipos Beam    |  - |
-| `t150c`            | Propiedades de la T150 para el Tipos Beam    |  - |
-| `2t150c`            | Propiedades de las 2T150 para el Tipos Beam    |  - |
-| `conadmin`              | texto para poner en emails de contratos      |    Para consultas administrativas o de retiro y devolución de materiales, consultar con Laura y Bárbara, en copia. |
+| `s150c`                 | Propiedades de la S150 para el Tipos Beam      |  - |
+| `2s150c`                | Propiedades de las 2S150 para el Tipos Beam    |  - |
+| `t150c`                 | Propiedades de la T150 para el Tipos Beam      |  - |
+| `2t150c`                | Propiedades de las 2T150 para el Tipos Beam    |  - |
+| `conadmin`              | Texto para poner en emails de contratos        |    Para consultas administrativas o de retiro y devolución de materiales, consultar con Laura y Bárbara, en copia. |
 | `exwork`                | Copypasta Ex-Works             |  2. Condición de entrega: EXWORK - Heinsberg, Alemania. |
 | `calidadatk`            | calidad@atenko.com             |             |
 | `mcg.`                  | martincarlis@gmail.com         | 
