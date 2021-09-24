@@ -7,16 +7,16 @@ SetWorkingDir, %A_ScriptDir%
 ::cple::
 Send Primeros 30 días o fracción: contado anticipado. Períodos subsiguientes: valor a 7 días FF.
 Send {Enter}
-Send 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.
+Send 5 días hábiles a partir de la acreditación del pago y presentación de requisitos.
 Send {Enter}
 return
 
-::4dh::
-Send 4 días hábiles a partir de la acreditación del pago y presentación de requisitos.
+::5dh::
+Send 5 días hábiles a partir de la acreditación del pago y presentación de requisitos.
 return
 
-::72h::
-Send 48/72hs a partir de la cumplimentación de los requerimientos administrativos.									
+::96h::
+Send 48/96hs a partir de la cumplimentación de los requerimientos administrativos.									
 return
 
 ::ivaposterior::
