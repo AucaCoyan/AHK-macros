@@ -33,6 +33,20 @@ The tiny programs and scripts that don't deserve a project
 | `2s150c`                | Propiedades de las 2S150 para el Tipos Beam    |  - |
 | `t150c`                 | Propiedades de la T150 para el Tipos Beam      |  - |
 | `2t150c`                | Propiedades de las 2T150 para el Tipos Beam    |  - |
+| `dokaflexm`             | pega la ruta del manual Dokaflex               |  - |
+| `dokah20m`              | pega la ruta del manual vigas Doka             |  - |
+| `framim`                | pega la ruta del manual Frami                  |  - |
+| `puntalesm`             | pega la ruta del manual Puntales               |  - |
+| `towerm`                | pega la ruta del manual Tower AT               |  - |
+| `superdeckm`            | pega la ruta del manual Superdeck              |  - |
+| `sistdualm`             | pega la ruta del manual Sistema Dual           |  - |
+| `aluminm`               | pega la ruta del manual Vigas de Aluminio      |  - |
+| `sbxm`                  | pega la ruta del manual Standarbox             |  - |
+| `lbxm`                  | pega la ruta del manual Lightbox               |  - |
+| `monocodalm`            | pega la ruta del manual Monocodal              |  - |
+| `sbxilu`                | pega la ruta del manual ilustrativo de Sbx     |  - |
+| `lbxilu`                | pega la ruta del manual ilustrativo de Lbx     |  - |
+| `monocodalilu`          | pega la ruta del manual ilustrativo de MC      |  - |
 | `conadmin`              | Texto para poner en emails de contratos        |    Para consultas administrativas o de retiro y devolución de materiales, consultar con Laura y Bárbara, en copia. |
 | `exwork`                | Copypasta Ex-Works             |  2. Condición de entrega: EXWORK - Heinsberg, Alemania. |
 | `calidadatk`            | calidad@atenko.com             |             |

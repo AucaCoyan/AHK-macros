@@ -68,24 +68,32 @@ Return
 Send, D:\17-Información Tecnica\MANUALES TECNICOS\Superdeck\Superdeck AT v.2021.1.pdf
 Return
 
-:*:sbxm::
-Send, D:\17-Información Tecnica\MANUALES TECNICOS\SBH\Manual de operaciones - Estandarbox Serie 600.pdf
+:*:sistdualm::
+Send, D:\17-Información Tecnica\MANUALES TECNICOS\Vigas de Aluminio\Sistema Dual - v.2020.1.pdf
 Return
 
-:*:sbxilu::
-Send, D:\17-Información Tecnica\MANUALES TECNICOS\SBH\Standarbox Ilustrativo.pdf
+:*:aluminm::
+Send, D:\17-Información Tecnica\MANUALES TECNICOS\Vigas de Aluminio\Vigas de Aluminio - v.2020.2.pdf
+Return
+
+:*:sbxm::
+Send, D:\17-Información Tecnica\MANUALES TECNICOS\SBH\Manual de operaciones - Estandarbox Serie 600.pdf
 Return
 
 :*:lbxm::
 Send, D:\17-Información Tecnica\MANUALES TECNICOS\SBH\Manual de operaciones - Lightbox Serie 300.pdf
 Return
 
-:*:lbxilu::
-Send, D:\17-Información Tecnica\MANUALES TECNICOS\SBH\Lightbox Ilustrativo.pdf
-Return
-
 :*:monocodalm::
 Send, D:\17-Información Tecnica\MANUALES TECNICOS\SBH\Manual de operaciones - Monocodal 750 - Rev3.pdf
+Return
+
+:*:sbxilu::
+Send, D:\17-Información Tecnica\MANUALES TECNICOS\SBH\Standarbox Ilustrativo.pdf
+Return
+
+:*:lbxilu::
+Send, D:\17-Información Tecnica\MANUALES TECNICOS\SBH\Lightbox Ilustrativo.pdf
 Return
 
 :*:monocodalilu::
