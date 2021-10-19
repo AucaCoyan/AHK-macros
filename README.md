@@ -1,4 +1,3 @@
-/* cSpell:disable */
 # TinyCode
 The tiny programs and scripts that don't deserve a project
 
@@ -53,26 +52,3 @@ The tiny programs and scripts that don't deserve a project
 | `mcg.`                  | martincarlis@gmail.com         | 
 | `Empty cell`            | Empty cell                     |  Empty cell |
 ---
-# Asus - TinyCode
-
-# Comandos generales de AutoHotkey
-
-## Hotkeys
-
-| Hotkey            | Do            | Comments  |
-| ----------------- |:-------------:| ---------:|
-| Win + C           | Calc.exe      |   Abre Calc.exe o cambia la tarea. |
-| Win + N           | OneNote       |   Abre OneNote o cambia la tarea.  |
-| Win + Ñ           | Opens Powershell     |  Abre Powershell o cambia la tarea |
-| Win+W             | Whatsapp      |           |
-| Win+Del           | Empty recycle bin      |     |
-| Nothing           | Count Files      | Currently not working |
-| Ctrl+O            | Copy format in Excel      |   Alt+O+O+O |
-| Nothing           | Busca si existe el archivo Presupuesto 115 - 181031.xlsx (en el servidor de ATK, en caso positivo manda un msg box)    | Currently not working   |
-
----
-## Hotstrings
-
-| Hotstring               | Do                             | Comments              |
-| ----------------------  |:------------------------------:| ---------------------:|
-| `Empty cell`            | Empty cell                     |  Empty cell |
