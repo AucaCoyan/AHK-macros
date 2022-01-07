@@ -1,75 +1,75 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+#SingleInstance, Force
+SendMode Input
+SetWorkingDir, %A_ScriptDir%
 
-;-------------------------------------------------------------------------------
-; 						     HOTKEYS
-;-------------------------------------------------------------------------------
-; Win + C = Calculadora
-#c::
-IfWinExist, Calculator
-	WinActivate, Calculator
-else
-	run C:\Windows\System32\calc.exe
-Return
+; Alt + n = ñ
+Alt & n::
+    if(!GetKeyState("CapsLock", "T"))
+    {
+        Send {Asc 0241}
+        Return
+    }else
+    {
+        Send {Asc 0209}
+        Return
+    }
 
-;-------------------------------------------------------------------------------
-; Win + Ñ = WindowsTerminal
+; Alt + a = á
+Alt & a::
+    if(!GetKeyState("CapsLock", "T"))
+    {
+        Send {Asc 0225}
+        Return
+    }else
+    {
+        Send {Asc 0193}
+        Return
+    }
 
-#ñ::
-IfWinExist, ahk_exe WindowsTerminal.exe
-	WinActivate, ahk_exe WindowsTerminal.exe
-else
-	run C:\Windows apps shorcuts\Windows Terminal - Shortcut.lnk
-Return
+; Alt + e = é
+Alt & e::
+    if(!GetKeyState("CapsLock", "T"))
+    {
+        Send {Asc 0233}
+        Return
+    }else
+    {
+        Send {Asc 0201}
+        Return
+    }
 
-;-------------------------------------------------------------------------------
-; Win + n = OneNote
+; Alt + i = í
+Alt & i::
+    if(!GetKeyState("CapsLock", "T"))
+    {
+        Send {Asc 0237}
+        Return
+    }else
+    {
+        Send {Asc 0205}
+        Return
+    } 
 
-#n::
-; IfWinExist, ahk_id 21836 ; OneNote process ID
-IfWinExist, Auca's Notebook ‎- OneNote for Windows 10 ; OneNote process ID
-	WinActivate, Auca's Notebook ‎- OneNote for Windows 10
-else
-	run C:\Windows apps shorcuts\OneNote for Windows 10 - Shortcut.lnk
-Return
+; Alt + o = ó
+Alt & o::
+    if(!GetKeyState("CapsLock", "T"))
+    {
+        Send {Asc 0243}
+        Return
+    }else
+    {
+        Send {Asc 0211}
+        Return
+    }
 
-;-------------------------------------------------------------------------------
-; Win + W = Whatsapp
-
-#w::
-IfWinExist, Whatsapp
-    WinActivate, Whatsapp
-else
-    run C:\Users\aucac\AppData\Local\WhatsApp\WhatsApp.exe
-Return
-
-;-------------------------------------------------------------------------------
-; Win + Del
-; Empty trash
-#Del::
-FileRecycleEmpty
-Return
-
-;-------------------------------------------------------------------------------
-; 						HOTSTRINGS
-;-------------------------------------------------------------------------------
-
-; Cuentas de correo
-:*o:ag.::aucacoyan@gmail.com
-:*o:ah.::aucacoyan@hotmail.com
-:*o:fp.::forosypaginas@gmail.com
-
-;-------------------------------------------------------------------------------
-; Excel
-; Shorcut Ctrl+O = Copy Format
-
-#IfWinActive ahk_exe EXCEL.EXE 
-	^O::				; excel in english
-	; Send, {ALT down}
-	Send, !h
-	Send, f
-	Send, p
-	; Send, {ALT up}
-Return
+; Alt + u = ú
+Alt & u::
+    if(!GetKeyState("CapsLock", "T"))
+    {
+        Send {Asc 0250}
+        Return
+    }else
+    {
+        Send {Asc 0218}
+        Return
+    }
