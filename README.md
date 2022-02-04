@@ -1,8 +1,5 @@
-# TinyCode
-The tiny programs and scripts that don't deserve a project
-
-# Atenko - Comandos generales de AutoHotkey
-
+# AHK-macros
+Macros en AutoHotKey
 
 ## Hotkeys
 
@@ -51,4 +48,14 @@ The tiny programs and scripts that don't deserve a project
 | `calidadatk`            | calidad@atenko.com             |             |
 | `mcg.`                  | martincarlis@gmail.com         | 
 | `Empty cell`            | Empty cell                     |  Empty cell |
----
+## Copy-Hex-to-Clipboard
+Copy to clipboard the HEX color of the pixel under your cursor using `Ctrl + Win + Left Click`
+
+## Open-new-explorer-window-same-folder
+Open new explorer window with the same path as the currently focused folder: I often use `Win + E` default shortcut to open the Explorer, but oftentimes I need to open a new window within the same location to move/organize some files. So why not use `Ctrl + Win + E` shortcut to do that?
+
+## Copy-Hex-to-Clipboard
+Copy to clipboard the HEX color of the pixel under your cursor using `Ctrl + Win + Left Click`
+
+## Open-new-explorer-window-same-folder
+Open new explorer window with the same path as the currently focused folder: I often use `Win + E` default shortcut to open the Explorer, but oftentimes I need to open a new window within the same location to move/organize some files. So why not use `Ctrl + Win + E` shortcut to do that?
