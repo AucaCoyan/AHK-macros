@@ -76,5 +76,5 @@ Alt & u::
 
 ; Alt + / = ¿
 Alt & /::
-    Send ?
+    Send ¿
 Return

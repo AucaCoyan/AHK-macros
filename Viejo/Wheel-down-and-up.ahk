@@ -82,5 +82,7 @@ Alt & u::
         Return
     }
 
-; Alt + ' = ¿
-! & p::SendRaw ¿
+; Alt + / = ¿
+Alt & /::
+    Send ¿
+Return
