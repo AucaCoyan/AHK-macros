@@ -73,3 +73,8 @@ Alt & u::
         Send {Asc 0218}
         Return
     }
+
+; Alt + / = ¿
+Alt & /::
+    Send ?
+Return
