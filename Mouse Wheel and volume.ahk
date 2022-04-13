@@ -1,7 +1,7 @@
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 
 #Persistent ; keep running
 #InstallKeybdHook 	; Better for keys
@@ -19,18 +19,17 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;                  CapsLock + Right |  Mouse Right                   ;|
 ;    CapsLock + Enter(Push Release) |  Mouse Left Push(Release)      ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & Up::    MouseMove, 0, -10, 0, R                           ;|
-CapsLock & Down::  MouseMove, 0, 10, 0, R                            ;|
-CapsLock & Left::  MouseMove, -10, 0, 0, R                           ;|
-CapsLock & Right:: MouseMove, 10, 0, 0, R                            ;|
+CapsLock & Up:: MouseMove, 0, -10, 0, R ;|
+CapsLock & Down:: MouseMove, 0, 10, 0, R ;|
+CapsLock & Left:: MouseMove, -10, 0, 0, R ;|
+CapsLock & Right:: MouseMove, 10, 0, 0, R ;|
 ;-----------------------------------o                                ;|
-CapsLock & Enter::                                                   ;|
-	SendEvent {Blind}{LButton down}                                  ;|
-	KeyWait Enter                                                    ;|
-	SendEvent {Blind}{LButton up}                                    ;|
-return                                                               ;|
+CapsLock & Enter:: ;|
+    SendEvent {Blind}{LButton down} ;|
+    KeyWait Enter ;|
+    SendEvent {Blind}{LButton up} ;|
+return ;|
 ;---------------------------------------------------------------------o
-
 
 ;=====================================================================o
 ;                     CapsLock Mouse Controller                      ;|
@@ -47,7 +46,6 @@ return                                                               ;|
 ; return                                                    		 ;|
 ;---------------------------------------------------------------------o
 
-
 ;=====================================================================o
 ;                            CapsLock Editor                         ;|
 ;-----------------------------------o---------------------------------o
@@ -55,17 +53,17 @@ return                                                               ;|
 ;                     CapsLock + e  |  Ctrl + Right(Move as [vim: e]);|
 ;                     CapsLock + b  |  Ctrl + Left (Move as [vim: b]);|
 ;-----------------------------------o---------------------------------o
-CapsLock & w:: Send, ^{Right}                                        ;|
-CapsLock & e:: Send, ^{Right}{Left}                                  ;|
-CapsLock & b:: Send, ^{Left}                                         ;|
+CapsLock & w:: Send, ^{Right} ;|
+CapsLock & e:: Send, ^{Right}{Left} ;|
+CapsLock & b:: Send, ^{Left} ;|
 ;---------------------------------------------------------------------o
 
 Volume_Up::
-	Send, {WheelUp}
+    Send, {WheelUp}
 return
 
 Volume_Down::
-	Send, {WheelDown}
+    Send, {WheelDown}
 return
 
 /* esto es lo que no anda, de momento no funciona. Sigue
@@ -108,38 +106,34 @@ return
 ;|Use it whatever and wherever you like. Hope it help                 |
 ;=====================================================================o
 
-
 ;=====================================================================o
 ;                       CapsLock Initializer                         ;|
 ;---------------------------------------------------------------------o
-SetCapsLockState, AlwaysOff                                          ;|
+SetCapsLockState, AlwaysOff ;|
 ;---------------------------------------------------------------------o
-
 
 ;=====================================================================o
 ;                       CapsLock Switcher:                           ;|
 ;---------------------------------o-----------------------------------o
 ;                    CapsLock + ` | {CapsLock}                       ;|
 ;---------------------------------o-----------------------------------o
-CapsLock & `::                                                       ;|
-GetKeyState, CapsLockState, CapsLock, T                              ;|
-if CapsLockState = D                                                 ;|
-    SetCapsLockState, AlwaysOff                                      ;|
-else                                                                 ;|
-    SetCapsLockState, AlwaysOn                                       ;|
-KeyWait, ``                                                          ;|
-return                                                               ;|
+CapsLock & `:: ;|
+    GetKeyState, CapsLockState, CapsLock, T ;|
+    if CapsLockState = D ;|
+        SetCapsLockState, AlwaysOff ;|
+    else ;|
+        SetCapsLockState, AlwaysOn ;|
+    KeyWait, `` ;|
+return ;|
 ;---------------------------------------------------------------------o
-
 
 ;=====================================================================o
 ;                         CapsLock Escaper:                          ;|
 ;----------------------------------o----------------------------------o
 ;                        CapsLock  |  {ESC}                          ;|
 ;----------------------------------o----------------------------------o
-CapsLock::Send, {ESC}                                                ;|
+CapsLock::Send, {ESC} ;|
 ;---------------------------------------------------------------------o
-
 
 ;=====================================================================o
 ;                    CapsLock Direction Navigator                    ;|
@@ -150,79 +144,78 @@ CapsLock::Send, {ESC}                                                ;|
 ;                      CapsLock + l |  Right                         ;|
 ;                      Ctrl, Alt Compatible                          ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & h::                                                       ;|
-if GetKeyState("control") = 0                                        ;|
-{                                                                    ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, {Left}                                                 ;|
-    else                                                             ;|
-        Send, +{Left}                                                ;|
-    return                                                           ;|
-}                                                                    ;|
-else {                                                               ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, ^{Left}                                                ;|
-    else                                                             ;|
-        Send, +^{Left}                                               ;|
-    return                                                           ;|
-}                                                                    ;|
-return                                                               ;|
+CapsLock & h:: ;|
+    if GetKeyState("control") = 0 ;|
+    { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, {Left} ;|
+        else ;|
+            Send, +{Left} ;|
+        return ;|
+    } ;|
+    else { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, ^{Left} ;|
+        else ;|
+            Send, +^{Left} ;|
+        return ;|
+    } ;|
+return ;|
 ;-----------------------------------o                                ;|
-CapsLock & j::                                                       ;|
-if GetKeyState("control") = 0                                        ;|
-{                                                                    ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, {Down}                                                 ;|
-    else                                                             ;|
-        Send, +{Down}                                                ;|
-    return                                                           ;|
-}                                                                    ;|
-else {                                                               ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, ^{Down}                                                ;|
-    else                                                             ;|
-        Send, +^{Down}                                               ;|
-    return                                                           ;|
-}                                                                    ;|
-return                                                               ;|
+CapsLock & j:: ;|
+    if GetKeyState("control") = 0 ;|
+    { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, {Down} ;|
+        else ;|
+            Send, +{Down} ;|
+        return ;|
+    } ;|
+    else { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, ^{Down} ;|
+        else ;|
+            Send, +^{Down} ;|
+        return ;|
+    } ;|
+return ;|
 ;-----------------------------------o                                ;|
-CapsLock & k::                                                       ;|
-if GetKeyState("control") = 0                                        ;|
-{                                                                    ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, {Up}                                                   ;|
-    else                                                             ;|
-        Send, +{Up}                                                  ;|
-    return                                                           ;|
-}                                                                    ;|
-else {                                                               ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, ^{Up}                                                  ;|
-    else                                                             ;|
-        Send, +^{Up}                                                 ;|
-    return                                                           ;|
-}                                                                    ;|
-return                                                               ;|
+CapsLock & k:: ;|
+    if GetKeyState("control") = 0 ;|
+    { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, {Up} ;|
+        else ;|
+            Send, +{Up} ;|
+        return ;|
+    } ;|
+    else { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, ^{Up} ;|
+        else ;|
+            Send, +^{Up} ;|
+        return ;|
+    } ;|
+return ;|
 ;-----------------------------------o                                ;|
-CapsLock & l::                                                       ;|
-if GetKeyState("control") = 0                                        ;|
-{                                                                    ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, {Right}                                                ;|
-    else                                                             ;|
-        Send, +{Right}                                               ;|
-    return                                                           ;|
-}                                                                    ;|
-else {                                                               ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, ^{Right}                                               ;|
-    else                                                             ;|
-        Send, +^{Right}                                              ;|
-    return                                                           ;|
-}                                                                    ;|
-return                                                               ;|
+CapsLock & l:: ;|
+    if GetKeyState("control") = 0 ;|
+    { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, {Right} ;|
+        else ;|
+            Send, +{Right} ;|
+        return ;|
+    } ;|
+    else { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, ^{Right} ;|
+        else ;|
+            Send, +^{Right} ;|
+        return ;|
+    } ;|
+return ;|
 ;---------------------------------------------------------------------o
-
 
 ;=====================================================================o
 ;                     CapsLock Home/End Navigator                    ;|
@@ -231,43 +224,42 @@ return                                                               ;|
 ;                      CapsLock + o |  End                           ;|
 ;                      Ctrl, Alt Compatible                          ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & i::                                                       ;|
-if GetKeyState("control") = 0                                        ;|
-{                                                                    ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, {Home}                                                 ;|
-    else                                                             ;|
-        Send, +{Home}                                                ;|
-    return                                                           ;|
-}                                                                    ;|
-else {                                                               ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, ^{Home}                                                ;|
-    else                                                             ;|
-        Send, +^{Home}                                               ;|
-    return                                                           ;|
-}                                                                    ;|
-return                                                               ;|
+CapsLock & i:: ;|
+    if GetKeyState("control") = 0 ;|
+    { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, {Home} ;|
+        else ;|
+            Send, +{Home} ;|
+        return ;|
+    } ;|
+    else { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, ^{Home} ;|
+        else ;|
+            Send, +^{Home} ;|
+        return ;|
+    } ;|
+return ;|
 ;-----------------------------------o                                ;|
-CapsLock & o::                                                       ;|
-if GetKeyState("control") = 0                                        ;|
-{                                                                    ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, {End}                                                  ;|
-    else                                                             ;|
-        Send, +{End}                                                 ;|
-    return                                                           ;|
-}                                                                    ;|
-else {                                                               ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, ^{End}                                                 ;|
-    else                                                             ;|
-        Send, +^{End}                                                ;|
-    return                                                           ;|
-}                                                                    ;|
-return                                                               ;|
+CapsLock & o:: ;|
+    if GetKeyState("control") = 0 ;|
+    { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, {End} ;|
+        else ;|
+            Send, +{End} ;|
+        return ;|
+    } ;|
+    else { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, ^{End} ;|
+        else ;|
+            Send, +^{End} ;|
+        return ;|
+    } ;|
+return ;|
 ;---------------------------------------------------------------------o
-
 
 ;=====================================================================o
 ;                      CapsLock Page Navigator                       ;|
@@ -276,43 +268,42 @@ return                                                               ;|
 ;                      CapsLock + p |  PageDown                      ;|
 ;                      Ctrl, Alt Compatible                          ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & u::                                                       ;|
-if GetKeyState("control") = 0                                        ;|
-{                                                                    ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, {PgUp}                                                 ;|
-    else                                                             ;|
-        Send, +{PgUp}                                                ;|
-    return                                                           ;|
-}                                                                    ;|
-else {                                                               ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, ^{PgUp}                                                ;|
-    else                                                             ;|
-        Send, +^{PgUp}                                               ;|
-    return                                                           ;|
-}                                                                    ;|
-return                                                               ;|
+CapsLock & u:: ;|
+    if GetKeyState("control") = 0 ;|
+    { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, {PgUp} ;|
+        else ;|
+            Send, +{PgUp} ;|
+        return ;|
+    } ;|
+    else { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, ^{PgUp} ;|
+        else ;|
+            Send, +^{PgUp} ;|
+        return ;|
+    } ;|
+return ;|
 ;-----------------------------------o                                ;|
-CapsLock & p::                                                       ;|
-if GetKeyState("control") = 0                                        ;|
-{                                                                    ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, {PgDn}                                                 ;|
-    else                                                             ;|
-        Send, +{PgDn}                                                ;|
-    return                                                           ;|
-}                                                                    ;|
-else {                                                               ;|
-    if GetKeyState("alt") = 0                                        ;|
-        Send, ^{PgDn}                                                ;|
-    else                                                             ;|
-        Send, +^{PgDn}                                               ;|
-    return                                                           ;|
-}                                                                    ;|
-return                                                               ;|
+CapsLock & p:: ;|
+    if GetKeyState("control") = 0 ;|
+    { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, {PgDn} ;|
+        else ;|
+            Send, +{PgDn} ;|
+        return ;|
+    } ;|
+    else { ;|
+        if GetKeyState("alt") = 0 ;|
+            Send, ^{PgDn} ;|
+        else ;|
+            Send, +^{PgDn} ;|
+        return ;|
+    } ;|
+return ;|
 ;---------------------------------------------------------------------o
-
 
 ;=====================================================================o
 ;                           CapsLock Deletor                         ;|
@@ -322,12 +313,11 @@ return                                                               ;|
 ;                     CapsLock + ,  |  BackSpace                     ;|
 ;                     CapsLock + .  |  Ctrl + BackSpace              ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & ,:: Send, {Del}                                           ;|
-CapsLock & .:: Send, ^{Del}                                          ;|
-CapsLock & m:: Send, {BS}                                            ;|
-CapsLock & n:: Send, ^{BS}                                           ;|
+CapsLock & ,:: Send, {Del} ;|
+CapsLock & .:: Send, ^{Del} ;|
+CapsLock & m:: Send, {BS} ;|
+CapsLock & n:: Send, ^{BS} ;|
 ;---------------------------------------------------------------------o
-
 
 ;=====================================================================o
 ;                       CapsLock Media Controller                    ;|
@@ -339,32 +329,30 @@ CapsLock & n:: Send, ^{BS}                                           ;|
 ;                    CapsLock + F5  |  Media_Next                    ;|
 ;                    CapsLock + F6  |  Media_Stop                    ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & F1:: Send, {Volume_Mute}                                  ;|
-CapsLock & F2:: Send, {Volume_Down}                                  ;|
-CapsLock & F3:: Send, {Volume_Up}                                    ;|
-CapsLock & F4:: Send, {Media_Play_Pause}                             ;|
-CapsLock & F5:: Send, {Media_Next}                                   ;|
-CapsLock & F6:: Send, {Media_Stop}                                   ;|
+CapsLock & F1:: Send, {Volume_Mute} ;|
+CapsLock & F2:: Send, {Volume_Down} ;|
+CapsLock & F3:: Send, {Volume_Up} ;|
+CapsLock & F4:: Send, {Media_Play_Pause} ;|
+CapsLock & F5:: Send, {Media_Next} ;|
+CapsLock & F6:: Send, {Media_Stop} ;|
 ;---------------------------------------------------------------------o
-
 
 ;=====================================================================o
 ;                      CapsLock Window Controller                    ;|
 ;-----------------------------------o---------------------------------o
 ;                     CapsLock + q  |  Ctrl + W   (Close Tag)        ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & q::                                                       ;|
-if GetKeyState("alt") = 0                                            ;|
-{                                                                    ;|
-    Send, ^w                                                         ;|
-}                                                                    ;|
-else {                                                               ;|
-    Send, !{F4}                                                      ;|
-    return                                                           ;|
-}                                                                    ;|
-return                                                               ;|
+CapsLock & q:: ;|
+    if GetKeyState("alt") = 0 ;|
+    { ;|
+        Send, ^w ;|
+    } ;|
+    else { ;|
+        Send, !{F4} ;|
+        return ;|
+    } ;|
+return ;|
 ;---------------------------------------------------------------------o
-
 
 ;=====================================================================o
 ;                        CapsLock Self Defined Area                  ;|
@@ -372,5 +360,5 @@ return                                                               ;|
 ;                     CapsLock + r  |  Open Shell                    ;|
 ;                     CapsLock + t  |  Open Text Editor              ;|
 ;-----------------------------------o---------------------------------o
-CapsLock & r:: Run Powershell                                        ;|
+CapsLock & r:: Run Powershell ;|
 ;---------------------------------------------------------------------o

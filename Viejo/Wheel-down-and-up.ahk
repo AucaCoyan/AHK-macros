@@ -22,7 +22,7 @@ Alt & n::
         Return
     }
 
-; Alt + a = á
+    ; Alt + a = á
 Alt & a::
     if(!GetKeyState("CapsLock", "T"))
     {
@@ -34,7 +34,7 @@ Alt & a::
         Return
     }
 
-; Alt + e = é
+    ; Alt + e = é
 Alt & e::
     if(!GetKeyState("CapsLock", "T"))
     {
@@ -46,7 +46,7 @@ Alt & e::
         Return
     }
 
-; Alt + i = í
+    ; Alt + i = í
 Alt & i::
     if(!GetKeyState("CapsLock", "T"))
     {
@@ -58,7 +58,7 @@ Alt & i::
         Return
     } 
 
-; Alt + o = ó
+    ; Alt + o = ó
 Alt & o::
     if(!GetKeyState("CapsLock", "T"))
     {
@@ -70,7 +70,7 @@ Alt & o::
         Return
     }
 
-; Alt + u = ú
+    ; Alt + u = ú
 Alt & u::
     if(!GetKeyState("CapsLock", "T"))
     {
@@ -82,7 +82,7 @@ Alt & u::
         Return
     }
 
-; Alt + / = ¿
+    ; Alt + / = ¿
 Alt & /::
     Send ¿
 Return
