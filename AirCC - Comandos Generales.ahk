@@ -1,55 +1,63 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+﻿#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 
 ;-------------------------------------------------------------------------------
 ; 						     HOTKEYS
 ;-------------------------------------------------------------------------------
 ; Win + C = Calculadora
 #c::
-IfWinExist, Calculator
-	WinActivate, Calculator
-else
-	run C:\Windows\System32\calc.exe
+    IfWinExist, Calculator
+        WinActivate, Calculator
+    else
+        run C:\Windows\System32\calc.exe
 Return
 
 ;-------------------------------------------------------------------------------
 ; Win + Ñ = WindowsTerminal
 
 #ñ::
-IfWinExist, ahk_exe WindowsTerminal.exe
-	WinActivate, ahk_exe WindowsTerminal.exe
-else
-	run C:\Windows apps shorcuts\Windows Terminal - Shortcut.lnk
+    IfWinExist, ahk_exe WindowsTerminal.exe
+        WinActivate, ahk_exe WindowsTerminal.exe
+    else
+        run C:\Windows apps shorcuts\Windows Terminal - Shortcut.lnk
 Return
 
+; also Ctrl + Alt + T = WindowsTerminal
+
+^!t::
+    IfWinExist, ahk_exe WindowsTerminal.exe
+        WinActivate, ahk_exe WindowsTerminal.exe
+    else
+        run C:\Windows apps shorcuts\Windows Terminal - Shortcut.lnk
+Return
 ;-------------------------------------------------------------------------------
 ; Win + n = OneNote
 
 #n::
-; IfWinExist, ahk_id 21836 ; OneNote process ID
-IfWinExist, Auca's Notebook ‎- OneNote for Windows 10 ; OneNote process ID
-	WinActivate, Auca's Notebook ‎- OneNote for Windows 10
-else
-	run C:\Windows apps shorcuts\OneNote for Windows 10 - Shortcut.lnk
-Return
+    ; IfWinExist, ahk_id 21836 ; OneNote process ID
+    IfWinExist, Auca's Notebook ‎- OneNote for Windows 10 ; OneNote process ID
+        WinActivate, Auca's Notebook ‎- OneNote for Windows 10
+        else
+        run C:\Windows apps shorcuts\OneNote for Windows 10 - Shortcut.lnk
+        Return
 
-;-------------------------------------------------------------------------------
-; Win + W = Whatsapp
+    ;-------------------------------------------------------------------------------
+    ; Win + W = Whatsapp
 
 #w::
-IfWinExist, Whatsapp
-    WinActivate, Whatsapp
-else
-    run C:\Users\aucac\AppData\Local\WhatsApp\WhatsApp.exe
+    IfWinExist, Whatsapp
+        WinActivate, Whatsapp
+    else
+        run C:\Users\aucac\AppData\Local\WhatsApp\WhatsApp.exe
 Return
 
 ;-------------------------------------------------------------------------------
 ; Win + Del
 ; Empty trash
 #Del::
-FileRecycleEmpty
+    FileRecycleEmpty
 Return
 
 ;-------------------------------------------------------------------------------
@@ -64,16 +72,15 @@ Return
 :*o:aucacv::http://tiny.cc/AucaCV
 :*o:linp::https://www.linkedin.com/in/auca-coyan-maillot/
 
-
 ;-------------------------------------------------------------------------------
 ; Excel
 ; Shorcut Ctrl+O = Copy Format
 
 #IfWinActive ahk_exe EXCEL.EXE 
-	^O::				; excel in english
-	; Send, {ALT down}
-	Send, !h
-	Send, f
-	Send, p
-	; Send, {ALT up}
+^O::				; excel in english
+    ; Send, {ALT down}
+    Send, !h
+    Send, f
+    Send, p
+    ; Send, {ALT up}
 Return
