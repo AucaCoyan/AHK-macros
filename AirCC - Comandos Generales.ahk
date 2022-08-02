@@ -42,9 +42,10 @@ Return
         else
         run C:\Windows apps shorcuts\OneNote for Windows 10 - Shortcut.lnk
         Return
+Return
 
-    ;-------------------------------------------------------------------------------
-    ; Win + W = Whatsapp
+;-------------------------------------------------------------------------------
+; Win + W = Whatsapp
 
 #w::
     IfWinExist, Whatsapp
@@ -58,6 +59,13 @@ Return
 ; Empty trash
 #Del::
     FileRecycleEmpty
+Return
+
+;-------------------------------------------------------------------------------
+; Win + F12
+; Open Downloads folder
+#F12::
+    run, C:\Users\aucac\OneDrive\Downloads
 Return
 
 ;-------------------------------------------------------------------------------

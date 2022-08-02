@@ -44,6 +44,7 @@ git clone https://github.com/AucaCoyan/AHK-macros
 | Win + Ñ |     Opens Powershell     |                                        Abre Powershell o cambia la tarea |
 | Win+W   |         Whatsapp         |                                                                          |
 | Win+Del |    Empty recycle bin     |                                                                          |
+| Win+F12 |  Open Downloads folder   |                                                                          |
 | Nothing |       Count Files        |                                                    Currently not working |
 | Ctrl+O  |   Copy format in Excel   |                                                                Alt+O+O+O |
 
